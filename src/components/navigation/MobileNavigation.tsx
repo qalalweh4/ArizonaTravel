@@ -72,28 +72,27 @@ export const MobileNavigation = ({ isOpen, onClose }: Props) => {
           </NavLink>
         </li>
         <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-2.5">
-          <div className="items-center border-b-green-600/90 border-l-neutral-800 border-r-neutral-800 border-t-neutral-800 box-border caret-transparent gap-x-3 flex justify-between outline-[3px] gap-y-3 no-underline w-full border-b border-solid">
-            <NavLink
-              to="/en/services"
-              onClick={onClose}
-              className={({ isActive }) =>
-                `items-center bg-[position:0px_0px] border-l-slate-50 border-r-slate-50 border-t-slate-50 box-border caret-transparent flex basis-[0%] grow justify-between min-h-[auto] min-w-[auto] outline-[3px] no-underline w-full py-4 border-b-black/10 border-b ${isActive ? "text-sunset-500 font-bold" : "text-slate-50 font-medium hover:text-brand-700 hover:border-l-brand-700 hover:border-r-brand-700 hover:border-t-brand-700"}`
-              }
-            >
-              {t("header.nav.services")}
-            </NavLink>
-            <button
-              type="button"
-              aria-label="Services"
-              className="items-center bg-transparent bg-[position:0px_0px] border-l-slate-50 border-r-slate-50 border-t-slate-50 caret-transparent text-slate-50 flex font-medium justify-between min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline w-full mx-2.5 px-0 py-4 border-b-black/10 border-b md:ml-[140px] md:mr-0 hover:text-brand-700 hover:border-l-brand-700 hover:border-r-brand-700 hover:border-t-brand-700"
-            >
-              <img
-                src="https://c.animaapp.com/mq9zlaoimPKAP5/assets/icon-2.svg"
-                alt="Icon"
-                className="box-border caret-transparent text-3xl h-[18px] leading-[48px] outline-[3px] no-underline w-[18px]"
-              />
-            </button>
-          </div>
+          <NavLink
+            to="/en/services"
+            onClick={onClose}
+            className={({ isActive }) =>
+              `items-center bg-[position:0px_0px] box-border caret-transparent flex justify-between outline-[3px] no-underline w-full py-4 border-b-black/10 border-b ${isActive ? "border-l-sunset-500 border-r-sunset-500 border-t-sunset-500 text-sunset-500 font-bold pl-3 border-l-[3px]" : "border-l-slate-50 border-r-slate-50 border-t-slate-50 text-slate-50 font-medium hover:text-brand-700"}`
+            }
+          >
+            {t("header.nav.services")}
+          </NavLink>
+        </li>
+        <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-2.5 pl-4">
+          <NavLink
+            to="/en/services/visa-assistance"
+            onClick={onClose}
+            className={({ isActive }) =>
+              `items-center flex gap-x-2 outline-[3px] no-underline w-full py-3 border-b-black/10 border-b text-sm ${isActive ? "text-sunset-500 font-bold" : "text-slate-300 hover:text-brand-500"}`
+            }
+          >
+            <span className="text-brand-500">↳</span>
+            {t("header.nav.visaAssistance")}
+          </NavLink>
         </li>
         <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-2.5">
           <button
