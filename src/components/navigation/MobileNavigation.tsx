@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useLanguage } from "@/i18n/LanguageContext";
+import { useTheme } from "@/contexts/ThemeContext";
 
 const baseLinkClass =
   "items-center bg-[position:0px_0px] box-border caret-transparent flex justify-between outline-[3px] no-underline w-full py-4 border-b-black/10 border-b";
@@ -17,6 +18,7 @@ type Props = { isOpen: boolean; onClose: () => void };
 
 export const MobileNavigation = ({ isOpen, onClose }: Props) => {
   const { t, language, toggleLanguage } = useLanguage();
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <nav
@@ -92,6 +94,24 @@ export const MobileNavigation = ({ isOpen, onClose }: Props) => {
               />
             </button>
           </div>
+        </li>
+        <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-2.5">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            className="items-center bg-transparent border-l-slate-50 border-r-slate-50 border-t-slate-50 caret-transparent text-slate-50 gap-x-3 flex font-medium justify-start outline-[3px] no-underline w-full px-0 py-4 border-b-black/10 border-b hover:text-brand-500"
+          >
+            {theme === "dark" ? (
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+              </svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+              </svg>
+            )}
+            <span>{theme === "dark" ? "Light Mode" : "Dark Mode"}</span>
+          </button>
         </li>
         <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-2.5">
           <button
