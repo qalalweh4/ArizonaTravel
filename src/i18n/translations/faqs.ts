@@ -6,7 +6,7 @@ export const faqs = {
     },
     items: {
       question1: {
-        q: "How can I book flights through Travel Gate?",
+        q: "How can I book flights through Arizona Travel SA?",
         a: "You can book directly by phone, WhatsApp, or inquiry form. We compare routes, fare classes, and baggage options, then confirm the best itinerary before ticket issuance.",
       },
       question2: {
@@ -62,7 +62,7 @@ export const faqs = {
     },
     items: {
       question1: {
-        q: "كيف يمكنني حجز تذاكر الطيران عبر ترافل جيت؟",
+        q: "كيف يمكنني حجز تذاكر الطيران عبر أريزونا ترافل؟",
         a: "يمكنك الحجز مباشرة عبر الهاتف أو الواتساب أو نموذج الاستعلام. نقوم بمقارنة المسارات وفئات التذاكر وخيارات الأمتعة، ثم نؤكد أفضل برنامج رحلة قبل إصدار التذكرة.",
       },
       question2: {

@@ -3,19 +3,19 @@ export const services = {
     hero: {
       title: "Integrated travel services in Riyadh",
       subtitle:
-        "Travel Gate provides a complete range of travel services in Riyadh, including flight booking, hotel reservations, visa assistance, and international itinerary planning.",
+        "Arizona Travel SA provides a complete range of travel services in Riyadh, including flight booking, hotel reservations, visa assistance, and international itinerary planning.",
       planTrip: "Plan your trip",
       contactExperts: "Contact travel experts",
     },
     about: {
       title: "A complete travel agency for all your needs",
       intro:
-        "Since Travel Gate launched in 2019, we have delivered a professional travel experience that combines organization and flexibility. We rely on a strong network of global airlines and hotel partners to provide end-to-end travel solutions from consultation to trip follow-up.",
+        "Since Arizona Travel SA launched in 2019, we have delivered a professional travel experience that combines organization and flexibility. We rely on a strong network of global airlines and hotel partners to provide end-to-end travel solutions from consultation to trip follow-up.",
     },
     core: {
       heading: "Core travel services in Riyadh",
       intro:
-        "Travel Gate provides a comprehensive set of travel services in Riyadh designed for different travel needs, with each service built for comfort, flexibility, and structured planning.",
+        "Arizona Travel SA provides a comprehensive set of travel services in Riyadh designed for different travel needs, with each service built for comfort, flexibility, and structured planning.",
       viewService: "View service",
       items: {
         flightBooking: {
@@ -48,7 +48,7 @@ export const services = {
     visa: {
       heading: "Professional visa support",
       intro:
-        "Visa procedures can be complex at times, so Travel Gate offers visa assistance services to make the process easier for travelers.",
+        "Visa procedures can be complex at times, so Arizona Travel SA offers visa assistance services to make the process easier for travelers.",
       items: {
         visaAssistance: {
           title: "Visa assistance",
@@ -109,7 +109,7 @@ export const services = {
     trust: {
       heading: "Reliable travel services in Riyadh",
       intro:
-        "Our clients rely on Travel Gate because we combine practical expertise and precise execution across every trip detail.",
+        "Our clients rely on Arizona Travel SA because we combine practical expertise and precise execution across every trip detail.",
       points: {
         point1: "Experienced travel consultants",
         point2: "Accurate guidance on visas and e-travel permits",
@@ -136,19 +136,19 @@ export const services = {
     hero: {
       title: "خدمات سفر متكاملة في الرياض",
       subtitle:
-        "تقدم ترافل جيت مجموعة كاملة من خدمات السفر في الرياض، بما في ذلك حجز الطيران، وحجوزات الفنادق، والمساعدة في التأشيرات، وتخطيط برامج السفر الدولية.",
+        "تقدم أريزونا ترافل مجموعة كاملة من خدمات السفر في الرياض، بما في ذلك حجز الطيران، وحجوزات الفنادق، والمساعدة في التأشيرات، وتخطيط برامج السفر الدولية.",
       planTrip: "خطط لرحلتك",
       contactExperts: "تواصل مع خبراء السفر",
     },
     about: {
       title: "وكالة سفر متكاملة لجميع احتياجاتك",
       intro:
-        "منذ انطلاق ترافل جيت في عام 2019، قدمنا تجربة سفر احترافية تجمع بين التنظيم والمرونة. نعتمد على شبكة قوية من شركات الطيران العالمية والشركاء الفندقيين لتقديم حلول سفر متكاملة من الاستشارة وحتى متابعة الرحلة.",
+        "منذ انطلاق أريزونا ترافل في عام 2019، قدمنا تجربة سفر احترافية تجمع بين التنظيم والمرونة. نعتمد على شبكة قوية من شركات الطيران العالمية والشركاء الفندقيين لتقديم حلول سفر متكاملة من الاستشارة وحتى متابعة الرحلة.",
     },
     core: {
       heading: "خدمات السفر الأساسية في الرياض",
       intro:
-        "تقدم ترافل جيت مجموعة شاملة من خدمات السفر في الرياض مصممة لتناسب احتياجات السفر المختلفة، حيث تم بناء كل خدمة لتوفر الراحة والمرونة والتخطيط المنظم.",
+        "تقدم أريزونا ترافل مجموعة شاملة من خدمات السفر في الرياض مصممة لتناسب احتياجات السفر المختلفة، حيث تم بناء كل خدمة لتوفر الراحة والمرونة والتخطيط المنظم.",
       viewService: "عرض الخدمة",
       items: {
         flightBooking: {
@@ -181,7 +181,7 @@ export const services = {
     visa: {
       heading: "دعم متخصص للتأشيرات",
       intro:
-        "قد تكون إجراءات التأشيرات معقدة في بعض الأحيان، لذا تقدم ترافل جيت خدمات مساعدة في التأشيرات لتسهيل العملية على المسافرين.",
+        "قد تكون إجراءات التأشيرات معقدة في بعض الأحيان، لذا تقدم أريزونا ترافل خدمات مساعدة في التأشيرات لتسهيل العملية على المسافرين.",
       items: {
         visaAssistance: {
           title: "المساعدة في التأشيرات",
@@ -239,7 +239,7 @@ export const services = {
     trust: {
       heading: "خدمات سفر موثوقة في الرياض",
       intro:
-        "يثق عملاؤنا بترافل جيت لأننا نجمع بين الخبرة العملية والتنفيذ الدقيق في كل تفصيل من تفاصيل الرحلة.",
+        "يثق عملاؤنا بأريزونا ترافل لأننا نجمع بين الخبرة العملية والتنفيذ الدقيق في كل تفصيل من تفاصيل الرحلة.",
       points: {
         point1: "مستشارو سفر ذوو خبرة",
         point2: "إرشاد دقيق بشأن التأشيرات والتصاريح الإلكترونية للسفر",

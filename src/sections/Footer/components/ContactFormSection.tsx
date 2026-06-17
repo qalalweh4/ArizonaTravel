@@ -5,16 +5,16 @@ export const ContactFormSection = () => {
 
   return (
     <div className="box-border caret-transparent basis-[0%] grow min-h-[auto] min-w-[auto] outline-[3px] no-underline">
-      <h2 className="box-border caret-transparent text-zinc-900 text-2xl font-bold leading-8 outline-[3px] text-center no-underline mb-2 py-0 md:text-3xl md:leading-9 md:pt-[18px] md:pb-2.5">
+      <h2 className="box-border caret-transparent text-slate-50 text-2xl font-extrabold tracking-tight leading-8 outline-[3px] text-center no-underline mb-2 py-0 md:text-3xl md:leading-9 md:pt-[18px] md:pb-2.5">
         {t("footer.contactForm.heading")}
       </h2>
-      <p className="box-border caret-transparent text-stone-500 text-sm leading-[19.25px] outline-[3px] no-underline mb-8">
+      <p className="box-border caret-transparent text-slate-300 text-sm leading-snug outline-[3px] no-underline mb-8">
         {t("footer.contactForm.subheading")}
       </p>
       <div className="box-border caret-transparent outline-[3px] no-underline">
         <div className="box-border caret-transparent leading-[normal] outline-[3px] no-underline font-helvetica_neue">
           <div className="box-border caret-transparent leading-[25.6px] outline-[3px] no-underline font-cairo">
-            <div className="bg-white border-b-amber-500 border-l-neutral-800 border-r-neutral-800 border-t-neutral-800 box-border caret-transparent max-w-[700px] min-h-[250px] outline-[3px] relative no-underline mx-auto border-b-[5px] border-solid">
+            <div className="bg-slate-900 border border-slate-800 border-b-brand-600 box-border caret-transparent max-w-[700px] min-h-[250px] outline-[3px] relative no-underline mx-auto border-b-[5px] border-solid rounded-2xl shadow-card">
               <div className="box-border caret-transparent outline-[3px] no-underline p-2.5"></div>
               <div className="box-border caret-transparent outline-[3px] no-underline px-[18px] py-3.5 md:px-[31px]">
                 <form className="box-border caret-transparent outline-[3px] no-underline">
@@ -26,9 +26,10 @@ export const ContactFormSection = () => {
                             <input
                               name="name"
                               type="string"
-                              className="bg-black/0 bg-[linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0))] box-border caret-transparent text-black h-[52px] tracking-[-0.3px] leading-[normal] outline-[3px] no-underline w-full border pl-2.5 pr-[35px] pt-[17px] pb-0 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-black/0 font-helvetica_neue"
+                              placeholder=" "
+                              className="peer bg-black/0 bg-[linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0))] box-border caret-transparent text-slate-50 h-[52px] tracking-[-0.3px] leading-[normal] outline-[3px] no-underline w-full border pl-2.5 pr-[35px] pt-[17px] pb-0 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-slate-700 font-helvetica_neue focus:border-brand-500"
                             />
-                            <label className="box-border caret-transparent text-black block text-[15px] leading-[17px] opacity-50 outline-[3px] pointer-events-none absolute no-underline text-ellipsis text-nowrap translate-y-[-50.0%] overflow-hidden pl-[11px] pr-[35px] left-0 right-[5px] top-2/4 font-helvetica_neue">
+                            <label className="box-border caret-transparent text-slate-400 block text-[15px] leading-[17px] opacity-80 outline-[3px] pointer-events-none absolute no-underline text-ellipsis text-nowrap translate-y-[-50.0%] overflow-hidden pl-[11px] pr-[35px] left-0 right-[5px] top-2/4 font-helvetica_neue transition-opacity peer-focus:opacity-0 peer-[:not(:placeholder-shown)]:opacity-0">
                               {t("footer.contactForm.nameLabel")}
                               <span className="box-border caret-transparent text-red-600 leading-6 outline-[3px] no-underline text-nowrap font-cairo">
                                 *
@@ -51,9 +52,10 @@ export const ContactFormSection = () => {
                             <input
                               name="phone"
                               type="tel"
-                              className="bg-black/0 bg-[linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0))] box-border caret-transparent text-black h-[52px] tracking-[-0.3px] leading-[normal] outline-[3px] no-underline w-full border pl-2.5 pr-[35px] pt-[17px] pb-0 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-black/0 font-helvetica_neue"
+                              placeholder=" "
+                              className="peer bg-black/0 bg-[linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0))] box-border caret-transparent text-slate-50 h-[52px] tracking-[-0.3px] leading-[normal] outline-[3px] no-underline w-full border pl-2.5 pr-[35px] pt-[17px] pb-0 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-slate-700 font-helvetica_neue focus:border-brand-500"
                             />
-                            <label className="box-border caret-transparent text-black block text-[13px] leading-[17px] opacity-50 outline-[3px] pointer-events-none absolute no-underline text-ellipsis text-nowrap overflow-hidden pl-[11px] pr-[35px] left-0 right-[5px] top-2 font-helvetica_neue">
+                            <label className="box-border caret-transparent text-slate-400 block text-[13px] leading-[17px] opacity-80 outline-[3px] pointer-events-none absolute no-underline text-ellipsis text-nowrap overflow-hidden pl-[11px] pr-[35px] left-0 right-[5px] top-2 font-helvetica_neue transition-opacity peer-focus:opacity-0 peer-[:not(:placeholder-shown)]:opacity-0">
                               {t("footer.contactForm.phoneLabel")}
                               <span className="box-border caret-transparent text-red-600 leading-[20.8px] outline-[3px] no-underline text-nowrap font-cairo">
                                 *
@@ -74,9 +76,10 @@ export const ContactFormSection = () => {
                             <input
                               name="email"
                               type="email"
-                              className="bg-black/0 bg-[linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0))] box-border caret-transparent text-black h-[52px] tracking-[-0.3px] leading-[normal] outline-[3px] no-underline w-full border pl-2.5 pr-[35px] pt-[17px] pb-0 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-black/0 font-helvetica_neue"
+                              placeholder=" "
+                              className="peer bg-black/0 bg-[linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0))] box-border caret-transparent text-slate-50 h-[52px] tracking-[-0.3px] leading-[normal] outline-[3px] no-underline w-full border pl-2.5 pr-[35px] pt-[17px] pb-0 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-slate-700 font-helvetica_neue focus:border-brand-500"
                             />
-                            <label className="box-border caret-transparent text-black block text-[15px] leading-[17px] opacity-50 outline-[3px] pointer-events-none absolute no-underline text-ellipsis text-nowrap translate-y-[-50.0%] overflow-hidden pl-[11px] pr-[35px] left-0 right-[5px] top-2/4 font-helvetica_neue">
+                            <label className="box-border caret-transparent text-slate-400 block text-[15px] leading-[17px] opacity-80 outline-[3px] pointer-events-none absolute no-underline text-ellipsis text-nowrap translate-y-[-50.0%] overflow-hidden pl-[11px] pr-[35px] left-0 right-[5px] top-2/4 font-helvetica_neue transition-opacity peer-focus:opacity-0 peer-[:not(:placeholder-shown)]:opacity-0">
                               {t("footer.contactForm.emailLabel")}
                               <span className="box-border caret-transparent text-red-600 hidden leading-6 outline-[3px] no-underline text-nowrap font-cairo">
                                 *
@@ -94,8 +97,11 @@ export const ContactFormSection = () => {
                       <div className="box-border caret-transparent outline-[3px] no-underline">
                         <div className="box-border caret-transparent outline-[3px] no-underline">
                           <div className="box-border caret-transparent outline-[3px] relative no-underline w-full mb-[5px]">
-                            <textarea className="bg-black/0 bg-[linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0))] box-border caret-transparent text-black h-[104px] tracking-[-0.3px] leading-[normal] max-w-full min-h-[52px] min-w-full outline-[3px] resize-y no-underline w-full pl-2.5 pr-[35px] pt-[23px] pb-0 rounded-bl rounded-br rounded-tl rounded-tr border-black/0 font-helvetica_neue"></textarea>
-                            <label className="box-border caret-transparent text-black block text-[15px] leading-[17px] opacity-50 outline-[3px] pointer-events-none absolute no-underline text-ellipsis text-nowrap overflow-hidden pl-[11px] pr-[35px] left-0 right-[5px] top-[15px] font-helvetica_neue">
+                            <textarea
+                              placeholder=" "
+                              className="peer bg-black/0 bg-[linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0))] box-border caret-transparent text-slate-50 h-[104px] tracking-[-0.3px] leading-[normal] max-w-full min-h-[52px] min-w-full outline-[3px] resize-y no-underline w-full pl-2.5 pr-[35px] pt-[23px] pb-0 rounded-bl rounded-br rounded-tl rounded-tr border border-solid border-slate-700 focus:border-brand-500 font-helvetica_neue"
+                            ></textarea>
+                            <label className="box-border caret-transparent text-slate-400 block text-[15px] leading-[17px] opacity-80 outline-[3px] pointer-events-none absolute no-underline text-ellipsis text-nowrap overflow-hidden pl-[11px] pr-[35px] left-0 right-[5px] top-[15px] font-helvetica_neue transition-opacity peer-focus:opacity-0 peer-[:not(:placeholder-shown)]:opacity-0">
                               {t("footer.contactForm.messageLabel")}
                               <span className="box-border caret-transparent text-red-600 leading-6 outline-[3px] no-underline text-nowrap font-cairo">
                                 *
@@ -120,7 +126,7 @@ export const ContactFormSection = () => {
                       <button
                         type="submit"
                         aria-label="Send"
-                        className="bg-amber-500 shadow-[rgba(0,0,0,0.09)_-1px_-1px_1px_0px] caret-transparent text-white text-[15px] font-semibold leading-[22px] min-h-[52px] outline-[3px] relative text-center no-underline w-full px-5 py-[15px] rounded-bl rounded-br rounded-tl rounded-tr font-helvetica_neue hover:bg-amber-500/70"
+                        className="bg-sunset-500 shadow-soft caret-transparent text-white text-[15px] font-semibold leading-snug min-h-[52px] outline-[3px] relative text-center no-underline w-full px-5 py-[15px] rounded-bl rounded-br rounded-tl rounded-tr font-helvetica_neue hover:bg-sunset-600 transition-colors"
                       >
                         {t("footer.contactForm.send")}
                       </button>
@@ -190,7 +196,7 @@ export const ContactFormSection = () => {
                         className="box-border caret-transparent text-3xl leading-[48px] outline-[3px] no-underline"
                       />
                     </div>
-                    <div className="box-border caret-transparent text-zinc-800 text-base leading-[18px] opacity-80 outline-[3px] no-underline mb-[35px] font-helvetica_neue md:text-xl md:leading-[30px]">
+                    <div className="box-border caret-transparent text-slate-800 text-base leading-[18px] opacity-80 outline-[3px] no-underline mb-[35px] font-helvetica_neue md:text-xl md:leading-[30px]">
                       <p className="box-border caret-transparent text-base leading-[25.6px] outline-[3px] no-underline mb-4 font-cairo md:text-xl md:leading-8">
                         {t("footer.contactForm.formDisabled")}
                       </p>
@@ -332,7 +338,7 @@ export const ContactFormSection = () => {
                   <span className="items-center box-border caret-transparent inline-flex outline-[3px] no-underline">
                     <a
                       href="https://www.bitrix24.com/abuse/?b24_form_id=48&b24_address=https%3A%2F%2Ftravelgate.bitrix24.ae&b24_form_address=https%3A%2F%2Ftravelgateksa.com%2Fen"
-                      className="box-border caret-transparent text-black block text-xs leading-[normal] min-h-[auto] min-w-[auto] opacity-40 outline-[3px] no-underline border-b border-solid font-helvetica_neue hover:text-teal-600 hover:border-l-teal-600 hover:border-r-teal-600 hover:border-t-teal-600"
+                      className="box-border caret-transparent text-black block text-xs leading-[normal] min-h-[auto] min-w-[auto] opacity-40 outline-[3px] no-underline border-b border-solid font-helvetica_neue hover:text-brand-600 hover:border-l-brand-600 hover:border-r-brand-600 hover:border-t-brand-600"
                     >
                       {t("footer.contactForm.reportAbuse")}
                     </a>
@@ -349,7 +355,7 @@ export const ContactFormSection = () => {
                           <button
                             type="button"
                             aria-label=""
-                            className="bg-amber-500 caret-transparent text-white block h-7 opacity-50 outline-[3px] absolute text-center no-underline w-7 z-[220] mx-2.5 px-6 py-1.5 rounded-[100%] right-[23px] top-3 md:ml-[140px] md:mr-0 md:px-[50px] md:py-2.5 before:accent-auto before:bg-white before:box-border before:caret-transparent before:text-white before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[15px] before:tracking-[normal] before:leading-[25.6px] before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:absolute before:text-center before:no-underline before:indent-[0px] before:normal-case before:visible before:w-px before:border-separate before:left-2/4 before:top-2/4 before:font-cairo after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-white after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-[15px] after:tracking-[normal] after:leading-[25.6px] after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:absolute after:text-center after:no-underline after:indent-[0px] after:normal-case after:visible after:w-px after:border-separate after:left-2/4 after:top-2/4 after:font-cairo"
+                            className="bg-brand-600 caret-transparent text-white block h-7 opacity-50 outline-[3px] absolute text-center no-underline w-7 z-[220] mx-2.5 px-6 py-1.5 rounded-full right-[23px] top-3 md:ml-[140px] md:mr-0 md:px-[50px] md:py-2.5 before:accent-auto before:bg-white before:box-border before:caret-transparent before:text-white before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[15px] before:tracking-[normal] before:leading-relaxed before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:absolute before:text-center before:no-underline before:indent-[0px] before:normal-case before:visible before:w-px before:border-separate before:left-2/4 before:top-2/4 before:font-cairo after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-white after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-[15px] after:tracking-[normal] after:leading-relaxed after:list-outside after:list-disc after:outline-[3px] after:pointer-events-auto after:absolute after:text-center after:no-underline after:indent-[0px] after:normal-case after:visible after:w-px after:border-separate after:left-2/4 after:top-2/4 after:font-cairo"
                           ></button>
                           <div className="box-border caret-transparent outline-[3px] no-underline">
                             <div className="box-border caret-transparent max-h-[850px] outline-[3px] overflow-x-hidden overflow-y-auto no-underline z-[200]">

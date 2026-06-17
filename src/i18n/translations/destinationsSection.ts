@@ -6,7 +6,7 @@ export const destinationsSection = {
       part2: "place awaits !",
     },
     description:
-      "The world is full of places waiting to be explored. Let Travel Gate guide you to experiences that turn trips into lifelong memories, designed just for you.",
+      "The world is full of places waiting to be explored. Let Arizona Travel SA guide you to experiences that turn trips into lifelong memories, designed just for you.",
     bookNow: "Book Now",
     gallery: {
       turkey: "Explore turkey offers",
@@ -30,7 +30,7 @@ export const destinationsSection = {
       part2: "القادمة تنتظرك !",
     },
     description:
-      "العالم مليء بالأماكن التي تنتظر استكشافها. دع ترافل جيت يقودك إلى تجارب تحوّل رحلاتك إلى ذكريات تدوم مدى العمر، مصممة خصيصاً لك.",
+      "العالم مليء بالأماكن التي تنتظر استكشافها. دع أريزونا ترافل يقودك إلى تجارب تحوّل رحلاتك إلى ذكريات تدوم مدى العمر، مصممة خصيصاً لك.",
     bookNow: "احجز الآن",
     gallery: {
       turkey: "اكتشف عروض تركيا",

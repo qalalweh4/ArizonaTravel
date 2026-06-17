@@ -2,7 +2,6 @@ import { Header } from "@/sections/Header";
 import { MobileNavigation } from "@/components/navigation/MobileNavigation";
 import { FloatingContactButtons } from "@/components/FloatingContactButtons";
 import { JourneyNumbersSection } from "@/sections/JourneyNumbersSection";
-import { SuccessPartnersSection } from "@/sections/SuccessPartnersSection";
 import { AccreditationsSection } from "@/sections/AccreditationsSection";
 import { Footer } from "@/sections/Footer";
 import { RouteAnnouncer } from "@/components/RouteAnnouncer";
@@ -32,19 +31,19 @@ export const BusinessPage = () => {
             alt={t("business.hero.imageAlt")}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-zinc-900/60" />
+          <div className="absolute inset-0 bg-slate-900/60" />
         </div>
         <div className="relative max-w-[1440px] mx-auto px-4 md:px-12">
           <div className="max-w-3xl">
-            <h1 className="text-white text-3xl font-bold leading-tight md:text-5xl">
+            <h1 className="text-white text-3xl font-extrabold tracking-tight leading-tight md:text-5xl">
               {t("business.hero.title")}
             </h1>
-            <p className="text-stone-100 text-base leading-7 mt-5 md:text-xl md:leading-9">
+            <p className="text-white/80 text-base leading-7 mt-5 md:text-xl md:leading-9">
               {t("business.hero.description")}
             </p>
             <a
               href="/en/contactus"
-              className="inline-block bg-orange-400 text-white text-sm font-semibold mt-8 px-6 py-3 rounded-lg"
+              className="inline-block bg-sunset-500 text-white font-semibold mt-8 px-6 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
             >
               {t("business.hero.cta")}
             </a>
@@ -52,35 +51,35 @@ export const BusinessPage = () => {
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-20">
+      <section className="bg-slate-950 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-3xl font-bold text-center md:text-4xl">
+          <h2 className="text-slate-50 text-3xl font-extrabold tracking-tight text-center md:text-4xl">
             {t("business.whyChoose.title")}
           </h2>
           <div className="grid grid-cols-2 gap-4 mt-10 md:grid-cols-4 md:gap-6">
             {businessFeatureKeys.map((featureKey) => (
               <div
                 key={featureKey}
-                className="bg-stone-50 border border-stone-200 text-zinc-900 text-center text-sm font-semibold px-4 py-6 rounded-xl md:text-base"
+                className="bg-slate-900 border border-slate-800 shadow-card text-slate-50 text-center text-sm font-semibold px-4 py-6 rounded-xl md:text-base"
               >
                 {t(`business.whyChoose.${featureKey}`)}
               </div>
             ))}
           </div>
 
-          <div className="divide-y divide-stone-200 border border-stone-200 rounded-2xl overflow-hidden mt-10 md:mt-12">
+          <div className="divide-y divide-slate-800 border border-slate-800 shadow-card rounded-2xl overflow-hidden mt-10 md:mt-12">
             {businessFaqKeys.map((itemKey, index) => (
               <div
                 key={itemKey}
-                className="bg-white px-5 py-6 md:px-8 md:py-8"
+                className="bg-slate-900 px-5 py-6 md:px-8 md:py-8"
               >
-                <h3 className="text-zinc-900 text-lg font-bold md:text-xl">
-                  <span className="text-orange-400 mr-2">
+                <h3 className="text-slate-50 text-lg font-bold md:text-xl">
+                  <span className="text-sunset-500 mr-2">
                     {businessFaqNumbers[index]}
                   </span>
                   {t(`business.whyChoose.faq.${itemKey}.title`)}
                 </h3>
-                <p className="text-stone-600 text-base leading-7 mt-3 md:text-lg md:leading-8">
+                <p className="text-slate-300 text-base leading-7 mt-3 md:text-lg md:leading-8">
                   {t(`business.whyChoose.faq.${itemKey}.description`)}
                 </p>
               </div>
@@ -89,16 +88,16 @@ export const BusinessPage = () => {
         </div>
       </section>
 
-      <section className="bg-stone-50 py-12 md:py-20">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-3xl font-bold text-center md:text-4xl">
+          <h2 className="text-slate-50 text-3xl font-extrabold tracking-tight text-center md:text-4xl">
             {t("business.idealFor.title")}
           </h2>
           <div className="grid grid-cols-2 gap-4 mt-10 md:grid-cols-5 md:gap-6">
             {idealForKeys.map((itemKey) => (
               <div
                 key={itemKey}
-                className="bg-white border border-stone-200 rounded-xl text-zinc-900 text-center text-sm font-semibold px-4 py-6 md:text-base"
+                className="bg-slate-950 rounded-xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 text-slate-50 text-center text-sm font-semibold px-4 py-6 md:text-base"
               >
                 {t(`business.idealFor.${itemKey}`)}
               </div>
@@ -107,7 +106,7 @@ export const BusinessPage = () => {
           <div className="text-center mt-10">
             <a
               href="/en/contactus"
-              className="inline-block bg-zinc-900 text-white text-sm font-semibold px-6 py-3 rounded-lg"
+              className="inline-block bg-sunset-500 text-white font-semibold px-6 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
             >
               {t("business.idealFor.cta")}
             </a>
@@ -116,7 +115,6 @@ export const BusinessPage = () => {
       </section>
 
       <JourneyNumbersSection />
-      <SuccessPartnersSection />
       <AccreditationsSection />
       <Footer />
       <RouteAnnouncer />

@@ -8,7 +8,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.turkey")}
         href="/en/exclusive-offers?country=turkey"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-end-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-1 md:row-end-3 md:row-start-1 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-end-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-1 md:row-end-3 md:row-start-1 md:leading-[25.6px]"
       >
         <img
           alt="Portrait Scene"
@@ -20,7 +20,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.indonesia")}
         href="/en/exclusive-offers?country=indonesia"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-2 md:row-start-1 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-2 md:row-start-1 md:leading-[25.6px]"
       >
         <img
           alt="Amani Allan Scene"
@@ -32,7 +32,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.mauritius")}
         href="/en/exclusive-offers?country=mauritius"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-end-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-3 md:row-end-3 md:row-start-1 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-end-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-3 md:row-end-3 md:row-start-1 md:leading-[25.6px]"
       >
         <img
           alt="Travel Scene"
@@ -44,7 +44,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.russia")}
         href="/en/exclusive-offers?country=russia"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-end-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-4 md:row-end-4 md:row-start-1 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-end-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-4 md:row-end-4 md:row-start-1 md:leading-[25.6px]"
       >
         <img
           alt="Tall Portrait Scene"
@@ -56,7 +56,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.uk")}
         href="/en/exclusive-offers?country=uk"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-5 md:row-start-1 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-5 md:row-start-1 md:leading-[25.6px]"
       >
         <img
           alt="Julius Silver Scene"
@@ -68,7 +68,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.egypt")}
         href="/en/exclusive-offers?country=egypt"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-2 md:row-start-2 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-2 md:row-start-2 md:leading-[25.6px]"
       >
         <img
           alt="Annetnavi Scene"
@@ -80,7 +80,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.georgia")}
         href="/en/exclusive-offers?country=georgia"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-5 md:row-start-2 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-5 md:row-start-2 md:leading-[25.6px]"
       >
         <img
           alt="Paul Theodoroja Scene"
@@ -92,7 +92,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.italy")}
         href="/en/exclusive-offers?country=italy"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-1 md:row-start-3 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-1 md:row-start-3 md:leading-[25.6px]"
       >
         <img
           alt="Mikel Scene"
@@ -104,7 +104,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.france")}
         href="/en/exclusive-offers?country=france"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-end-auto col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-end-4 md:col-start-2 md:row-start-3 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-end-auto col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-end-4 md:col-start-2 md:row-start-3 md:leading-[25.6px]"
       >
         <img
           alt="Sesinando Scene"
@@ -116,7 +116,7 @@ export const DestinationGallery = () => {
       <a
         aria-label={t("destinationsSection.gallery.azerbaijan")}
         href="/en/exclusive-offers?country=azerbaijan"
-        className="box-border caret-transparent text-sky-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-5 md:row-start-3 md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block text-[19.2px] col-start-auto row-start-auto h-full leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] relative no-underline w-full overflow-hidden rounded-xl md:text-base md:col-start-5 md:row-start-3 md:leading-[25.6px]"
       >
         <img
           alt="Pixabay Landscape"

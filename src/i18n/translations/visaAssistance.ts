@@ -3,7 +3,7 @@ export const visaAssistance = {
     hero: {
       title: "Travel Visa Services for International Travel",
       subtitle:
-        "Travel Gate provides reliable visa assistance services from Saudi Arabia, with professional support for preparing visa applications for international destinations.",
+        "Arizona Travel SA provides reliable visa assistance services from Saudi Arabia, with professional support for preparing visa applications for international destinations.",
       applyVisa: "Apply for Visa",
       contactExperts: "Contact Travel Experts",
     },
@@ -25,18 +25,18 @@ export const visaAssistance = {
         title:
           "Simplified Visa Assistance for a Hassle-Free Travel Experience",
         paragraph1:
-          "The process of applying for a travel visa can be complex and requires precision in preparing documents and adhering to the regulations of each country. Travel Gate offers visa assistance services designed to help travelers complete the application process with ease and clarity.",
+          "The process of applying for a travel visa can be complex and requires precision in preparing documents and adhering to the regulations of each country. Arizona Travel SA offers visa assistance services designed to help travelers complete the application process with ease and clarity.",
         paragraph2:
-          "As a full-service travel agency in Riyadh, Travel Gate provides professional support throughout all stages of the visa application, from initial consultation to submission and follow-up.",
+          "As a full-service travel agency in Riyadh, Arizona Travel SA provides professional support throughout all stages of the visa application, from initial consultation to submission and follow-up.",
         paragraph3:
           "Our services support travelers planning holidays, business trips, family visits, or special purpose travel. By correctly preparing documents, accurately filling out applications, and adhering to embassy requirements, our international visa assistance services help reduce delays and increase approval chances.",
         paragraph4:
-          "For travelers seeking visa assistance from Saudi Arabia, Travel Gate provides clear organization and professional guidance at every step of the application process.",
+          "For travelers seeking visa assistance from Saudi Arabia, Arizona Travel SA provides clear organization and professional guidance at every step of the application process.",
       },
       international: {
         title: "International Visa Assistance",
         paragraph1:
-          "Travel Gate provides international visa assistance services for travelers applying for visas to a large number of destinations worldwide.",
+          "Arizona Travel SA provides international visa assistance services for travelers applying for visas to a large number of destinations worldwide.",
         paragraph2:
           "Each country has specific visa requirements, including financial documents, travel itinerary, and application procedures. Our travel consultants continuously monitor embassy and consulate requirements to ensure application accuracy.",
         paragraph3:
@@ -56,7 +56,7 @@ export const visaAssistance = {
       byType: {
         title: "Visa Services for Different Types",
         paragraph1:
-          "Travel Gate offers visa assistance services for a wide range of visa types according to the travel purpose and destination.",
+          "Arizona Travel SA offers visa assistance services for a wide range of visa types according to the travel purpose and destination.",
         paragraph2:
           "Each visa type has specific requirements, and our team ensures the selection of the appropriate visa type and proper preparation of the application file.",
         points: {
@@ -71,7 +71,7 @@ export const visaAssistance = {
       support: {
         title: "Comprehensive Support for Visa Applications",
         paragraph1:
-          "Travel Gate provides visa application support services that cover all stages of the application process.",
+          "Arizona Travel SA provides visa application support services that cover all stages of the application process.",
         paragraph2:
           "Each visa application is carefully reviewed to minimize the likelihood of rejection or delays in processing.",
         points: {
@@ -90,7 +90,7 @@ export const visaAssistance = {
       schengen: {
         title: "Specialized Schengen Visa Services",
         paragraph1:
-          "Travel Gate offers specialized Schengen visa assistance services for travelers planning to visit Europe.",
+          "Arizona Travel SA offers specialized Schengen visa assistance services for travelers planning to visit Europe.",
         paragraph2:
           "The Schengen visa allows travel to several European countries with a single visa, making proper application preparation crucial for a successful application process.",
         paragraph3:
@@ -107,9 +107,9 @@ export const visaAssistance = {
       integrated: {
         title: "Integrated Visa Services with Travel Services",
         paragraph1:
-          "Visa assistance services can be integrated with other Travel Gate services to ensure better coordination of documents and travel plans.",
+          "Visa assistance services can be integrated with other Arizona Travel SA services to ensure better coordination of documents and travel plans.",
         paragraph2:
-          "By combining visa assistance from Saudi Arabia with travel planning services, Travel Gate ensures a more organized and seamless travel experience.",
+          "By combining visa assistance from Saudi Arabia with travel planning services, Arizona Travel SA ensures a more organized and seamless travel experience.",
         points: {
           point1: "Flight bookings",
           point2: "Hotel bookings",
@@ -120,7 +120,7 @@ export const visaAssistance = {
       trust: {
         title: "Reliable Visa Assistance Services from Saudi Arabia",
         paragraph1:
-          "Travelers choose Travel Gate for visa assistance services due to our expertise in managing visa applications and international travel organization.",
+          "Travelers choose Arizona Travel SA for visa assistance services due to our expertise in managing visa applications and international travel organization.",
         paragraph2:
           "Our goal is to make the travel visa application process clear, reliable, and hassle-free.",
         points: {
@@ -134,9 +134,9 @@ export const visaAssistance = {
       },
     },
     cta: {
-      heading: "Apply for Your Visa with Travel Gate",
+      heading: "Apply for Your Visa with Arizona Travel SA",
       paragraph1:
-        "Whether you are planning a holiday, a business trip, or a family visit, Travel Gate provides the visa assistance services you need to travel with confidence.",
+        "Whether you are planning a holiday, a business trip, or a family visit, Arizona Travel SA provides the visa assistance services you need to travel with confidence.",
       paragraph2:
         "Contact our travel experts today to start your visa assistance from Saudi Arabia and get professional support for your next trip visa application.",
       applyVisa: "Apply for Visa",
@@ -153,7 +153,7 @@ export const visaAssistance = {
     hero: {
       title: "خدمات تأشيرات السفر للسفر الدولي",
       subtitle:
-        "تقدم ترافل جيت خدمات مساعدة موثوقة في التأشيرات من المملكة العربية السعودية، مع دعم احترافي لتحضير طلبات التأشيرات للوجهات الدولية.",
+        "تقدم أريزونا ترافل خدمات مساعدة موثوقة في التأشيرات من المملكة العربية السعودية، مع دعم احترافي لتحضير طلبات التأشيرات للوجهات الدولية.",
       applyVisa: "تقديم طلب تأشيرة",
       contactExperts: "تواصل مع خبراء السفر",
     },
@@ -174,18 +174,18 @@ export const visaAssistance = {
       simplified: {
         title: "مساعدة مبسطة في التأشيرات لتجربة سفر خالية من التعقيد",
         paragraph1:
-          "قد تكون عملية التقديم على تأشيرة السفر معقدة وتتطلب الدقة في تحضير المستندات والالتزام بأنظمة كل دولة. تقدم ترافل جيت خدمات مساعدة في التأشيرات مصممة لمساعدة المسافرين على إكمال عملية التقديم بسهولة ووضوح.",
+          "قد تكون عملية التقديم على تأشيرة السفر معقدة وتتطلب الدقة في تحضير المستندات والالتزام بأنظمة كل دولة. تقدم أريزونا ترافل خدمات مساعدة في التأشيرات مصممة لمساعدة المسافرين على إكمال عملية التقديم بسهولة ووضوح.",
         paragraph2:
-          "بصفتها وكالة سفر متكاملة في الرياض، تقدم ترافل جيت دعمًا احترافيًا خلال جميع مراحل طلب التأشيرة، من الاستشارة الأولى وحتى التقديم والمتابعة.",
+          "بصفتها وكالة سفر متكاملة في الرياض، تقدم أريزونا ترافل دعمًا احترافيًا خلال جميع مراحل طلب التأشيرة، من الاستشارة الأولى وحتى التقديم والمتابعة.",
         paragraph3:
           "تدعم خدماتنا المسافرين المخططين لقضاء عطلات أو رحلات عمل أو زيارات عائلية أو سفر لأغراض خاصة. من خلال تحضير المستندات بشكل صحيح، وتعبئة الطلبات بدقة، والالتزام بمتطلبات السفارات، تساعد خدمات المساعدة الدولية في التأشيرات على تقليل التأخير وزيادة فرص القبول.",
         paragraph4:
-          "للمسافرين الباحثين عن مساعدة في التأشيرات من المملكة العربية السعودية، تقدم ترافل جيت تنظيمًا واضحًا وإرشادًا مهنيًا في كل خطوة من عملية التقديم.",
+          "للمسافرين الباحثين عن مساعدة في التأشيرات من المملكة العربية السعودية، تقدم أريزونا ترافل تنظيمًا واضحًا وإرشادًا مهنيًا في كل خطوة من عملية التقديم.",
       },
       international: {
         title: "المساعدة الدولية في التأشيرات",
         paragraph1:
-          "تقدم ترافل جيت خدمات مساعدة دولية في التأشيرات للمسافرين الذين يتقدمون بطلبات تأشيرات لعدد كبير من الوجهات حول العالم.",
+          "تقدم أريزونا ترافل خدمات مساعدة دولية في التأشيرات للمسافرين الذين يتقدمون بطلبات تأشيرات لعدد كبير من الوجهات حول العالم.",
         paragraph2:
           "تمتلك كل دولة متطلبات تأشيرة خاصة بها، تشمل المستندات المالية وبرنامج الرحلة وإجراءات التقديم. يراقب مستشارو السفر لدينا باستمرار متطلبات السفارات والقنصليات لضمان دقة الطلب.",
         paragraph3:
@@ -205,7 +205,7 @@ export const visaAssistance = {
       byType: {
         title: "خدمات التأشيرات لأنواع مختلفة",
         paragraph1:
-          "تقدم ترافل جيت خدمات مساعدة في التأشيرات لمجموعة واسعة من أنواع التأشيرات حسب الغرض من السفر والوجهة.",
+          "تقدم أريزونا ترافل خدمات مساعدة في التأشيرات لمجموعة واسعة من أنواع التأشيرات حسب الغرض من السفر والوجهة.",
         paragraph2:
           "لكل نوع تأشيرة متطلبات خاصة، ويضمن فريقنا اختيار نوع التأشيرة المناسب والتحضير الصحيح لملف الطلب.",
         points: {
@@ -220,7 +220,7 @@ export const visaAssistance = {
       support: {
         title: "دعم شامل لطلبات التأشيرات",
         paragraph1:
-          "تقدم ترافل جيت خدمات دعم لطلبات التأشيرات تغطي جميع مراحل عملية التقديم.",
+          "تقدم أريزونا ترافل خدمات دعم لطلبات التأشيرات تغطي جميع مراحل عملية التقديم.",
         paragraph2:
           "تتم مراجعة كل طلب تأشيرة بعناية لتقليل احتمالية الرفض أو التأخير في المعالجة.",
         points: {
@@ -237,7 +237,7 @@ export const visaAssistance = {
       schengen: {
         title: "خدمات متخصصة لتأشيرة شنغن",
         paragraph1:
-          "تقدم ترافل جيت خدمات مساعدة متخصصة في تأشيرة شنغن للمسافرين الذين يخططون لزيارة أوروبا.",
+          "تقدم أريزونا ترافل خدمات مساعدة متخصصة في تأشيرة شنغن للمسافرين الذين يخططون لزيارة أوروبا.",
         paragraph2:
           "تتيح تأشيرة شنغن السفر إلى عدة دول أوروبية بتأشيرة واحدة، مما يجعل التحضير الصحيح للطلب أمرًا حاسمًا لنجاح عملية التقديم.",
         paragraph3:
@@ -253,9 +253,9 @@ export const visaAssistance = {
       integrated: {
         title: "خدمات التأشيرات المتكاملة مع خدمات السفر",
         paragraph1:
-          "يمكن دمج خدمات المساعدة في التأشيرات مع خدمات ترافل جيت الأخرى لضمان تنسيق أفضل للمستندات وخطط السفر.",
+          "يمكن دمج خدمات المساعدة في التأشيرات مع خدمات أريزونا ترافل الأخرى لضمان تنسيق أفضل للمستندات وخطط السفر.",
         paragraph2:
-          "من خلال الجمع بين المساعدة في التأشيرات من المملكة العربية السعودية وخدمات تخطيط السفر، تضمن ترافل جيت تجربة سفر أكثر تنظيمًا وسلاسة.",
+          "من خلال الجمع بين المساعدة في التأشيرات من المملكة العربية السعودية وخدمات تخطيط السفر، تضمن أريزونا ترافل تجربة سفر أكثر تنظيمًا وسلاسة.",
         points: {
           point1: "حجوزات الطيران",
           point2: "حجوزات الفنادق",
@@ -266,7 +266,7 @@ export const visaAssistance = {
       trust: {
         title: "خدمات مساعدة موثوقة في التأشيرات من المملكة العربية السعودية",
         paragraph1:
-          "يختار المسافرون ترافل جيت لخدمات المساعدة في التأشيرات بسبب خبرتنا في إدارة طلبات التأشيرات وتنظيم السفر الدولي.",
+          "يختار المسافرون أريزونا ترافل لخدمات المساعدة في التأشيرات بسبب خبرتنا في إدارة طلبات التأشيرات وتنظيم السفر الدولي.",
         paragraph2:
           "هدفنا هو جعل عملية طلب تأشيرة السفر واضحة وموثوقة وخالية من التعقيد.",
         points: {
@@ -279,9 +279,9 @@ export const visaAssistance = {
       },
     },
     cta: {
-      heading: "تقدم بطلب تأشيرتك مع ترافل جيت",
+      heading: "تقدم بطلب تأشيرتك مع أريزونا ترافل",
       paragraph1:
-        "سواء كنت تخطط لعطلة أو رحلة عمل أو زيارة عائلية، تقدم ترافل جيت خدمات المساعدة في التأشيرات التي تحتاجها للسفر بثقة.",
+        "سواء كنت تخطط لعطلة أو رحلة عمل أو زيارة عائلية، تقدم أريزونا ترافل خدمات المساعدة في التأشيرات التي تحتاجها للسفر بثقة.",
       paragraph2:
         "تواصل مع خبراء السفر لدينا اليوم لبدء المساعدة في التأشيرات من المملكة العربية السعودية والحصول على دعم مهني لطلب تأشيرة رحلتك القادمة.",
       applyVisa: "تقديم طلب تأشيرة",

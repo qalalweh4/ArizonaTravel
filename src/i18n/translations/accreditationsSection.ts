@@ -13,11 +13,11 @@ export const accreditationsSection = {
       },
       licenseNumber: {
         label: "License number",
-        value: "73100843",
+        value: "73107650",
       },
       taxId: {
         label: "Tax ID number",
-        value: "300020355600003",
+        value: "312804221900003",
       },
     },
   },
@@ -35,11 +35,11 @@ export const accreditationsSection = {
       },
       licenseNumber: {
         label: "رقم الترخيص",
-        value: "73100843",
+        value: "73107650",
       },
       taxId: {
         label: "الرقم الضريبي",
-        value: "300020355600003",
+        value: "312804221900003",
       },
     },
   },

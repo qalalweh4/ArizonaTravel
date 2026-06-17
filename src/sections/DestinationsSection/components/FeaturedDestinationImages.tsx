@@ -8,7 +8,7 @@ export const FeaturedDestinationImages = () => {
       <a
         aria-label={t("destinationsSection.gallery.maldives")}
         href="/en/exclusive-offers?country=maldives"
-        className="box-border caret-transparent text-sky-600 block basis-[0%] grow text-[19.2px] leading-[30.72px] min-h-[auto] outline-[3px] relative no-underline overflow-hidden rounded-xl md:text-base md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block basis-[0%] grow text-[19.2px] leading-[30.72px] min-h-[auto] outline-[3px] relative no-underline overflow-hidden rounded-xl md:text-base md:leading-[25.6px]"
       >
         <img
           alt="Scenic Panorama"
@@ -20,7 +20,7 @@ export const FeaturedDestinationImages = () => {
       <a
         aria-label={t("destinationsSection.gallery.thailand")}
         href="/en/exclusive-offers?country=thailand"
-        className="box-border caret-transparent text-sky-600 block basis-[0%] grow text-[19.2px] leading-[30.72px] min-h-[auto] outline-[3px] relative no-underline overflow-hidden rounded-xl md:text-base md:leading-[25.6px]"
+        className="box-border caret-transparent text-brand-600 block basis-[0%] grow text-[19.2px] leading-[30.72px] min-h-[auto] outline-[3px] relative no-underline overflow-hidden rounded-xl md:text-base md:leading-[25.6px]"
       >
         <img
           alt="Travel Destination"

@@ -57,7 +57,7 @@ const services: Service[] = [
   {
     key: "service4",
     hasCta: true,
-    ctaHref: "https://api.whatsapp.com/send?phone=966112398888",
+    ctaHref: "https://api.whatsapp.com/send?phone=966541272537",
   },
 ];
 
@@ -70,19 +70,19 @@ export const EducationPage = () => {
       <MobileNavigation />
       <FloatingContactButtons />
 
-      <section className="relative pt-28 pb-16 md:pt-36 md:pb-24">
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-900 via-emerald-800 to-zinc-900" />
+      <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-brand-900 to-brand-700 py-20 md:py-28">
+        <div className="pointer-events-none absolute -right-24 -bottom-24 h-72 w-72 rounded-full bg-sunset-500/30 blur-3xl" />
         <div className="relative max-w-[1440px] mx-auto px-4 md:px-12">
           <div className="max-w-3xl">
-            <h1 className="text-white text-3xl font-bold leading-tight md:text-5xl">
+            <h1 className="text-white text-3xl font-extrabold tracking-tight leading-tight md:text-5xl">
               {t("education.hero.title")}
             </h1>
-            <p className="text-emerald-50 text-base leading-7 mt-5 md:text-xl md:leading-9">
+            <p className="text-white/80 text-base leading-7 mt-5 md:text-xl md:leading-9">
               {t("education.hero.description")}
             </p>
             <a
               href="#education-services"
-              className="inline-block bg-orange-400 text-white text-sm font-semibold mt-8 px-6 py-3 rounded-lg"
+              className="inline-block bg-sunset-500 text-white font-semibold mt-8 px-6 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
             >
               {t("education.hero.cta")}
             </a>
@@ -90,16 +90,16 @@ export const EducationPage = () => {
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-20">
+      <section className="bg-slate-950 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-3xl font-bold text-center md:text-4xl">
+          <h2 className="text-slate-50 text-3xl font-extrabold tracking-tight text-center md:text-4xl">
             {t("education.destinations.title")}
           </h2>
           <div className="grid grid-cols-1 gap-5 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {destinations.map((destination) => (
               <article
                 key={destination.key}
-                className="bg-white border border-stone-200 rounded-2xl overflow-hidden"
+                className="bg-slate-900 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 overflow-hidden"
               >
                 <img
                   src={destination.image}
@@ -107,12 +107,12 @@ export const EducationPage = () => {
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4">
-                  <h3 className="text-zinc-900 text-lg font-bold">
+                  <h3 className="text-slate-50 text-lg font-bold">
                     {t(`education.destinations.${destination.key}`)}
                   </h3>
                   <a
                     href={destination.href}
-                    className="inline-block text-orange-500 text-sm font-semibold mt-3"
+                    className="inline-block text-brand-600 text-sm font-semibold mt-3"
                   >
                     {t("education.destinations.cta")}
                   </a>
@@ -123,17 +123,17 @@ export const EducationPage = () => {
         </div>
       </section>
 
-      <section className="bg-stone-50 py-12 md:py-20">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-3xl font-bold text-center md:text-4xl">
+          <h2 className="text-slate-50 text-3xl font-extrabold tracking-tight text-center md:text-4xl">
             {t("education.documents.title")}
           </h2>
           <div className="grid grid-cols-1 gap-6 mt-10 md:grid-cols-2 md:gap-8">
-            <div className="bg-white border border-stone-200 rounded-2xl p-6 md:p-8">
-              <h3 className="text-zinc-900 text-2xl font-bold">
+            <div className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 p-6 md:p-8">
+              <h3 className="text-slate-50 text-2xl font-bold">
                 {t("education.documents.saudis.title")}
               </h3>
-              <ul className="list-disc text-stone-700 text-base leading-8 mt-4 pl-5">
+              <ul className="list-disc text-slate-300 text-base leading-8 mt-4 pl-5">
                 {saudiDocumentKeys.map((itemKey) => (
                   <li key={itemKey}>
                     {t(`education.documents.saudis.${itemKey}`)}
@@ -141,11 +141,11 @@ export const EducationPage = () => {
                 ))}
               </ul>
             </div>
-            <div className="bg-white border border-stone-200 rounded-2xl p-6 md:p-8">
-              <h3 className="text-zinc-900 text-2xl font-bold">
+            <div className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 p-6 md:p-8">
+              <h3 className="text-slate-50 text-2xl font-bold">
                 {t("education.documents.nonSaudis.title")}
               </h3>
-              <ul className="list-disc text-stone-700 text-base leading-8 mt-4 pl-5">
+              <ul className="list-disc text-slate-300 text-base leading-8 mt-4 pl-5">
                 {nonSaudiDocumentKeys.map((itemKey) => (
                   <li key={itemKey}>
                     {t(`education.documents.nonSaudis.${itemKey}`)}
@@ -157,27 +157,27 @@ export const EducationPage = () => {
         </div>
       </section>
 
-      <section id="education-services" className="bg-white py-12 md:py-20">
+      <section id="education-services" className="bg-slate-950 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-3xl font-bold text-center md:text-4xl">
+          <h2 className="text-slate-50 text-3xl font-extrabold tracking-tight text-center md:text-4xl">
             {t("education.services.title")}
           </h2>
           <div className="grid grid-cols-1 gap-5 mt-10 md:grid-cols-2">
             {services.map((service) => (
               <article
                 key={service.key}
-                className="bg-stone-50 border border-stone-200 rounded-2xl p-6 md:p-8"
+                className="bg-slate-900 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 p-6 md:p-8"
               >
-                <h3 className="text-zinc-900 text-2xl font-bold">
+                <h3 className="text-slate-50 text-2xl font-bold">
                   {t(`education.services.${service.key}.title`)}
                 </h3>
-                <p className="text-stone-700 text-base leading-8 mt-4">
+                <p className="text-slate-300 text-base leading-8 mt-4">
                   {t(`education.services.${service.key}.description`)}
                 </p>
                 {service.hasCta && service.ctaHref ? (
                   <a
                     href={service.ctaHref}
-                    className="inline-block bg-orange-400 text-white text-sm font-semibold mt-6 px-6 py-3 rounded-lg"
+                    className="inline-block bg-sunset-500 text-white font-semibold mt-6 px-6 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
                   >
                     {t(`education.services.${service.key}.cta`)}
                   </a>
@@ -188,44 +188,44 @@ export const EducationPage = () => {
         </div>
       </section>
 
-      <section className="bg-stone-50 py-12 md:py-16">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
-          <div className="bg-white border border-stone-200 rounded-2xl p-6 md:p-10">
-            <h2 className="text-zinc-900 text-3xl font-bold md:text-4xl">
+          <div className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 p-6 md:p-10">
+            <h2 className="text-slate-50 text-3xl font-extrabold tracking-tight md:text-4xl">
               {t("education.contact.title")}
             </h2>
             <div className="grid grid-cols-1 gap-4 mt-6 md:grid-cols-3 md:gap-6">
-              <div className="bg-stone-50 rounded-xl p-4">
-                <h3 className="text-zinc-900 font-bold">
+              <div className="bg-slate-900 rounded-xl p-4">
+                <h3 className="text-slate-50 font-bold">
                   {t("education.contact.location.title")}
                 </h3>
-                <p className="text-stone-600 text-sm leading-7 mt-2">
+                <p className="text-slate-300 text-sm leading-7 mt-2">
                   {t("education.contact.location.line1")}
                 </p>
-                <p className="text-stone-600 text-sm leading-7">
+                <p className="text-slate-300 text-sm leading-7">
                   {t("education.contact.location.line2")}
                 </p>
               </div>
-              <div className="bg-stone-50 rounded-xl p-4">
-                <h3 className="text-zinc-900 font-bold">
+              <div className="bg-slate-900 rounded-xl p-4">
+                <h3 className="text-slate-50 font-bold">
                   {t("education.contact.phone.title")}
                 </h3>
                 <a
-                  href="tel:+966112398888"
-                  className="text-orange-500 text-sm font-semibold inline-block mt-2"
+                  href="tel:+966541272537"
+                  className="text-brand-600 text-sm font-semibold inline-block mt-2"
                 >
-                  +966112398888
+                  +966 54 127 2537
                 </a>
               </div>
-              <div className="bg-stone-50 rounded-xl p-4">
-                <h3 className="text-zinc-900 font-bold">
+              <div className="bg-slate-900 rounded-xl p-4">
+                <h3 className="text-slate-50 font-bold">
                   {t("education.contact.email.title")}
                 </h3>
                 <a
-                  href="mailto:info@travelgateksa.com"
-                  className="text-orange-500 text-sm font-semibold inline-block mt-2"
+                  href="mailto:info@arizonatravelsa.com"
+                  className="text-brand-600 text-sm font-semibold inline-block mt-2"
                 >
-                  info@travelgateksa.com
+                  info@arizonatravelsa.com
                 </a>
               </div>
             </div>

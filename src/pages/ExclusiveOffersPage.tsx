@@ -148,30 +148,31 @@ export const ExclusiveOffersPage = () => {
       <MobileNavigation />
       <FloatingContactButtons />
 
-      <section className="bg-white pt-28 pb-8 md:pt-36 md:pb-10">
-        <div className="max-w-[1440px] mx-auto px-4 md:px-12">
-          <h1 className="text-zinc-900 text-3xl font-bold md:text-5xl">
+      <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-brand-900 to-brand-700 py-20 md:py-28">
+        <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-sunset-500/30 blur-3xl" />
+        <div className="relative max-w-[1440px] mx-auto px-4 md:px-12">
+          <h1 className="text-white text-3xl font-extrabold tracking-tight md:text-5xl">
             {t("exclusiveOffers.hero.title")}
           </h1>
-          <p className="text-stone-600 text-base mt-4 md:text-lg">
+          <p className="text-white/80 text-base mt-4 md:text-lg">
             {t("exclusiveOffers.hero.description")}
           </p>
         </div>
       </section>
 
-      <section className="bg-stone-50 pb-14 md:pb-20">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-[300px_1fr] md:gap-8">
-            <aside className="bg-white border border-stone-200 rounded-2xl p-5 h-fit sticky top-28">
-              <h2 className="text-zinc-900 text-xl font-bold mb-5">
+            <aside className="bg-slate-900 border border-slate-800 shadow-card rounded-2xl p-5 h-fit sticky top-28">
+              <h2 className="text-slate-50 text-xl font-extrabold tracking-tight mb-5">
                 {t("exclusiveOffers.filter.title")}
               </h2>
 
-              <div className="border-b border-stone-200 pb-5 mb-5">
-                <h3 className="text-zinc-900 text-sm font-semibold mb-3">
+              <div className="border-b border-slate-800 pb-5 mb-5">
+                <h3 className="text-slate-50 text-sm font-semibold mb-3">
                   {t("exclusiveOffers.filter.budget")}
                 </h3>
-                <div className="flex items-center justify-between text-stone-600 text-sm mb-3">
+                <div className="flex items-center justify-between text-slate-300 text-sm mb-3">
                   <span>{t("exclusiveOffers.filter.budgetMin")}</span>
                   <span>{t("exclusiveOffers.filter.budgetMax")}</span>
                 </div>
@@ -184,11 +185,11 @@ export const ExclusiveOffersPage = () => {
                 />
               </div>
 
-              <div className="border-b border-stone-200 pb-5 mb-5">
-                <h3 className="text-zinc-900 text-sm font-semibold mb-3">
+              <div className="border-b border-slate-800 pb-5 mb-5">
+                <h3 className="text-slate-50 text-sm font-semibold mb-3">
                   {t("exclusiveOffers.filter.starRating")}
                 </h3>
-                <div className="space-y-2 text-sm text-stone-700">
+                <div className="space-y-2 text-sm text-slate-100">
                   <label className="flex items-center gap-2">
                     <input type="checkbox" /> {t("exclusiveOffers.filter.stars5")}
                   </label>
@@ -204,11 +205,11 @@ export const ExclusiveOffersPage = () => {
                 </div>
               </div>
 
-              <div className="border-b border-stone-200 pb-5 mb-5">
-                <h3 className="text-zinc-900 text-sm font-semibold mb-3">
+              <div className="border-b border-slate-800 pb-5 mb-5">
+                <h3 className="text-slate-50 text-sm font-semibold mb-3">
                   {t("exclusiveOffers.filter.suitableFor")}
                 </h3>
-                <div className="space-y-2 text-sm text-stone-700">
+                <div className="space-y-2 text-sm text-slate-100">
                   <label className="flex items-center gap-2">
                     <input type="checkbox" /> {t("exclusiveOffers.filter.couples")}
                   </label>
@@ -225,14 +226,14 @@ export const ExclusiveOffersPage = () => {
               </div>
 
               <div>
-                <h3 className="text-zinc-900 text-sm font-semibold mb-3">
+                <h3 className="text-slate-50 text-sm font-semibold mb-3">
                   {t("exclusiveOffers.filter.destination")}
                 </h3>
                 <div className="space-y-2">
                   {destinationKeys.map((destinationKey) => (
                     <label
                       key={destinationKey}
-                      className="flex items-center justify-between text-sm text-stone-700"
+                      className="flex items-center justify-between text-sm text-slate-100"
                     >
                       <span>
                         {t(`exclusiveOffers.filter.destinations.${destinationKey}`)}
@@ -245,23 +246,23 @@ export const ExclusiveOffersPage = () => {
             </aside>
 
             <div>
-              <div className="bg-white border border-stone-200 rounded-2xl p-4 md:p-6 mb-6">
+              <div className="bg-slate-950 border border-slate-800 shadow-card rounded-2xl p-4 md:p-6 mb-6">
                 <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                   <div className="flex items-center gap-3">
                     <input
                       type="text"
                       placeholder={t("exclusiveOffers.toolbar.searchPlaceholder")}
-                      className="w-full md:w-[320px] border border-stone-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-orange-400"
+                      className="w-full md:w-[320px] border border-slate-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-sunset-400"
                     />
-                    <button className="bg-zinc-900 text-white text-sm font-semibold px-5 py-2 rounded-lg">
+                    <button className="bg-sunset-500 text-white font-semibold text-sm px-5 py-2 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors">
                       {t("exclusiveOffers.toolbar.search")}
                     </button>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="text-stone-600 text-sm">
+                    <span className="text-slate-300 text-sm">
                       {t("exclusiveOffers.toolbar.sort")}
                     </span>
-                    <select className="border border-stone-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-orange-400">
+                    <select className="border border-slate-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-sunset-400">
                       <option>{t("exclusiveOffers.toolbar.sortRecommended")}</option>
                       <option>{t("exclusiveOffers.toolbar.sortHighestRated")}</option>
                       <option>{t("exclusiveOffers.toolbar.sortLowestPrice")}</option>
@@ -270,7 +271,7 @@ export const ExclusiveOffersPage = () => {
                     </select>
                   </div>
                 </div>
-                <p className="text-stone-600 text-sm mt-4">
+                <p className="text-slate-300 text-sm mt-4">
                   {t("exclusiveOffers.toolbar.resultsCount")}
                 </p>
               </div>
@@ -279,7 +280,7 @@ export const ExclusiveOffersPage = () => {
                 {offers.map((offer) => (
                   <article
                     key={offer.id}
-                    className="bg-white border border-stone-200 rounded-2xl overflow-hidden"
+                    className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 overflow-hidden"
                   >
                     <img
                       src={offer.image}
@@ -288,16 +289,16 @@ export const ExclusiveOffersPage = () => {
                     />
                     <div className="p-4">
                       <div className="flex items-center justify-between mb-2">
-                        <h3 className="text-zinc-900 text-xl font-bold">
+                        <h3 className="text-slate-50 text-xl font-extrabold tracking-tight">
                           {t(`exclusiveOffers.offers.${offer.key}.title`)}
                         </h3>
-                        <span className="text-orange-500 text-sm font-semibold">
+                        <span className="text-sunset-500 text-sm font-semibold">
                           {offer.rating}
                         </span>
                       </div>
-                      <p className="text-stone-600 text-sm mb-3">
+                      <p className="text-slate-300 text-sm mb-3">
                         {t("exclusiveOffers.offer.startingFrom")}{" "}
-                        <span className="text-zinc-900 font-bold">
+                        <span className="text-slate-50 font-bold">
                           {offer.price}
                         </span>
                       </p>
@@ -305,7 +306,7 @@ export const ExclusiveOffersPage = () => {
                         {offer.tagKeys.map((tagKey) => (
                           <span
                             key={`${offer.id}-${tagKey}`}
-                            className="bg-stone-100 text-stone-700 text-xs px-2 py-1 rounded-full"
+                            className="bg-slate-900 text-slate-300 text-xs px-2 py-1 rounded-full"
                           >
                             {t(`exclusiveOffers.offers.${offer.key}.tags.${tagKey}`)}
                           </span>
@@ -314,13 +315,13 @@ export const ExclusiveOffersPage = () => {
                       <div className="flex items-center gap-2">
                         <a
                           href="/en/contactus"
-                          className="flex-1 text-center bg-zinc-900 text-white text-sm font-semibold px-3 py-2 rounded-lg"
+                          className="flex-1 text-center border-2 border-brand-600 text-brand-600 text-sm font-semibold px-3 py-2 rounded-lg hover:bg-brand-50 transition-colors"
                         >
                           {t("exclusiveOffers.offer.book")}
                         </a>
                         <a
-                          href="https://wa.me/966112398888"
-                          className="flex-1 text-center bg-orange-400 text-white text-sm font-semibold px-3 py-2 rounded-lg"
+                          href="https://wa.me/966541272537"
+                          className="flex-1 text-center bg-sunset-500 text-white text-sm font-semibold px-3 py-2 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors"
                         >
                           {t("exclusiveOffers.offer.contact")}
                         </a>
@@ -331,10 +332,10 @@ export const ExclusiveOffersPage = () => {
               </div>
 
               <div className="text-center mt-8">
-                <button className="bg-white border border-stone-300 text-zinc-900 text-sm font-semibold px-6 py-3 rounded-lg">
+                <button className="border-2 border-brand-600 text-brand-600 text-sm font-semibold px-6 py-3 rounded-lg hover:bg-brand-50 transition-colors">
                   {t("exclusiveOffers.pagination.viewMore")}
                 </button>
-                <p className="text-stone-600 text-sm mt-3">
+                <p className="text-slate-300 text-sm mt-3">
                   {t("exclusiveOffers.pagination.showing")}
                 </p>
               </div>

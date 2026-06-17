@@ -54,23 +54,23 @@ const Section = ({
   title,
   paragraphs,
   points,
-  bgClassName = "bg-white",
+  bgClassName = "bg-slate-950",
 }: {
   title: string;
   paragraphs: string[];
   points?: string[];
   bgClassName?: string;
 }) => (
-  <section className={`${bgClassName} py-10 md:py-14`}>
+  <section className={`${bgClassName} py-12 md:py-20`}>
     <div className="max-w-[1200px] mx-auto px-4 md:px-12">
-      <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">{title}</h2>
-      <div className="space-y-4 mt-5 text-stone-700 text-base leading-8">
+      <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">{title}</h2>
+      <div className="space-y-4 mt-5 text-slate-300 text-base leading-8">
         {paragraphs.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}
       </div>
       {points ? (
-        <ul className="mt-5 space-y-2 list-disc pl-5 text-stone-700 text-base leading-8">
+        <ul className="mt-5 space-y-2 list-disc pl-5 text-slate-300 text-base leading-8">
           {points.map((point) => (
             <li key={point}>{point}</li>
           ))}
@@ -89,25 +89,25 @@ export const VisaAssistancePage = () => {
       <MobileNavigation />
       <FloatingContactButtons />
 
-      <section className="relative pt-28 pb-14 md:pt-36 md:pb-20">
-        <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-zinc-800 to-orange-500" />
+      <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-brand-900 to-brand-700 py-20 md:py-28">
+        <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-sunset-500/30 blur-3xl" />
         <div className="relative max-w-[1440px] mx-auto px-4 md:px-12">
-          <h1 className="text-white text-3xl font-bold leading-tight md:text-5xl max-w-4xl">
+          <h1 className="text-white text-3xl font-extrabold tracking-tight leading-tight md:text-5xl max-w-4xl">
             {t("visaAssistance.hero.title")}
           </h1>
-          <p className="text-stone-100 text-base leading-8 mt-5 md:text-lg md:leading-9 max-w-4xl">
+          <p className="text-white/80 text-base leading-8 mt-5 md:text-lg md:leading-9 max-w-4xl">
             {t("visaAssistance.hero.subtitle")}
           </p>
           <div className="flex flex-wrap gap-3 mt-7">
             <a
               href="#visa-types"
-              className="bg-orange-400 text-white text-sm font-semibold px-6 py-3 rounded-lg"
+              className="bg-sunset-500 text-white font-semibold px-6 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
             >
               {t("visaAssistance.hero.applyVisa")}
             </a>
             <a
               href="/en/contactus"
-              className="bg-white/95 text-zinc-900 text-sm font-semibold px-6 py-3 rounded-lg"
+              className="border-2 border-white/40 text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors text-sm"
             >
               {t("visaAssistance.hero.contactExperts")}
             </a>
@@ -115,24 +115,24 @@ export const VisaAssistancePage = () => {
         </div>
       </section>
 
-      <section id="visa-types" className="bg-stone-50 py-10 md:py-14">
+      <section id="visa-types" className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1200px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+          <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
             {t("visaAssistance.visaTypes.heading")}
           </h2>
           <div className="grid grid-cols-1 gap-5 mt-8 md:grid-cols-2 lg:grid-cols-3">
             {visaTypes.map((visaType) => (
               <article
                 key={visaType.key}
-                className="bg-white border border-stone-200 rounded-2xl p-5 flex items-center justify-between"
+                className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 p-5 flex items-center justify-between"
               >
                 <div>
-                  <h3 className="text-zinc-900 text-xl font-bold">
+                  <h3 className="text-slate-50 text-xl font-bold">
                     {t(`visaAssistance.visaTypes.items.${visaType.key}.title`)}
                   </h3>
                   <a
                     href={visaType.route}
-                    className="inline-block mt-4 bg-orange-400 text-white text-sm font-semibold px-4 py-2 rounded-lg"
+                    className="inline-block mt-4 bg-sunset-500 text-white font-semibold px-4 py-2 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
                   >
                     {t("visaAssistance.visaTypes.applyNow")}
                   </a>
@@ -158,7 +158,7 @@ export const VisaAssistancePage = () => {
 
       <Section
         title={t("visaAssistance.sections.international.title")}
-        bgClassName="bg-stone-50"
+        bgClassName="bg-slate-900"
         paragraphs={[
           t("visaAssistance.sections.international.paragraph1"),
           t("visaAssistance.sections.international.paragraph2"),
@@ -195,7 +195,7 @@ export const VisaAssistancePage = () => {
 
       <Section
         title={t("visaAssistance.sections.support.title")}
-        bgClassName="bg-stone-50"
+        bgClassName="bg-slate-900"
         paragraphs={[
           t("visaAssistance.sections.support.paragraph1"),
           t("visaAssistance.sections.support.paragraph2"),
@@ -230,7 +230,7 @@ export const VisaAssistancePage = () => {
 
       <Section
         title={t("visaAssistance.sections.integrated.title")}
-        bgClassName="bg-stone-50"
+        bgClassName="bg-slate-900"
         paragraphs={[
           t("visaAssistance.sections.integrated.paragraph1"),
           t("visaAssistance.sections.integrated.paragraph2"),
@@ -258,61 +258,61 @@ export const VisaAssistancePage = () => {
         ]}
       />
 
-      <section className="bg-stone-50 py-12 md:py-16">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1100px] mx-auto px-4 md:px-12">
-          <div className="bg-white border border-stone-200 rounded-2xl p-6 md:p-8">
-            <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+          <div className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 p-6 md:p-8">
+            <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
               {t("visaAssistance.cta.heading")}
             </h2>
-            <p className="text-stone-700 text-base leading-8 mt-4">
+            <p className="text-slate-300 text-base leading-8 mt-4">
               {t("visaAssistance.cta.paragraph1")}
             </p>
-            <p className="text-stone-700 text-base leading-8 mt-3">
+            <p className="text-slate-300 text-base leading-8 mt-3">
               {t("visaAssistance.cta.paragraph2")}
             </p>
 
             <div className="flex flex-wrap gap-3 mt-6">
               <a
                 href="#visa-types"
-                className="bg-orange-400 text-white text-sm font-semibold px-6 py-3 rounded-lg"
+                className="bg-sunset-500 text-white font-semibold px-6 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
               >
                 {t("visaAssistance.cta.applyVisa")}
               </a>
               <a
                 href="/en/contactus"
-                className="bg-zinc-900 text-white text-sm font-semibold px-6 py-3 rounded-lg"
+                className="border-2 border-brand-600 text-brand-600 text-sm font-semibold px-6 py-3 rounded-lg hover:bg-brand-50 transition-colors"
               >
                 {t("visaAssistance.cta.contactExperts")}
               </a>
             </div>
 
             <div className="grid grid-cols-1 gap-4 mt-7 md:grid-cols-3">
-              <div className="rounded-xl border border-stone-200 p-4">
-                <h3 className="text-zinc-900 font-bold">
+              <div className="rounded-xl border border-slate-800 shadow-soft p-4">
+                <h3 className="text-slate-50 font-bold">
                   {t("visaAssistance.cta.location.title")}
                 </h3>
-                <p className="text-stone-700 text-sm mt-2 leading-7">
+                <p className="text-slate-300 text-sm mt-2 leading-7">
                   {t("visaAssistance.cta.location.address")}
                 </p>
               </div>
               <a
-                href="tel:+966112398888"
-                className="rounded-xl border border-stone-200 p-4 block"
+                href="tel:+966541272537"
+                className="rounded-xl border border-slate-800 shadow-soft hover:shadow-card transition-shadow p-4 block"
               >
-                <h3 className="text-zinc-900 font-bold">
+                <h3 className="text-slate-50 font-bold">
                   {t("visaAssistance.cta.phone.title")}
                 </h3>
-                <p className="text-stone-700 text-sm mt-2">+966112398888</p>
+                <p className="text-slate-300 text-sm mt-2">+966 54 127 2537</p>
               </a>
               <a
-                href="mailto:info@travelgateksa.com"
-                className="rounded-xl border border-stone-200 p-4 block"
+                href="mailto:info@arizonatravelsa.com"
+                className="rounded-xl border border-slate-800 shadow-soft hover:shadow-card transition-shadow p-4 block"
               >
-                <h3 className="text-zinc-900 font-bold">
+                <h3 className="text-slate-50 font-bold">
                   {t("visaAssistance.cta.email.title")}
                 </h3>
-                <p className="text-stone-700 text-sm mt-2">
-                  info@travelgateksa.com
+                <p className="text-slate-300 text-sm mt-2">
+                  info@arizonatravelsa.com
                 </p>
               </a>
             </div>

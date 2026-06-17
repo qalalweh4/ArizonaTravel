@@ -9,18 +9,18 @@ export const packages = {
     intro: {
       heading: "Packages Designed for Every Traveler",
       paragraph1:
-        "Travel Gate offers a variety of professionally designed travel packages for travelers from Saudi Arabia looking for a comfortable and integrated travel experience. Our travel packages combine flights, hotel accommodation, transfers, and tourist activities within an organized travel program that makes it easy for travelers to enjoy their trips without complexity.",
+        "Arizona Travel SA offers a variety of professionally designed travel packages for travelers from Saudi Arabia looking for a comfortable and integrated travel experience. Our travel packages combine flights, hotel accommodation, transfers, and tourist activities within an organized travel program that makes it easy for travelers to enjoy their trips without complexity.",
       paragraph2:
         "Whether you are planning a short trip or an adventure that includes several countries, international travel packages from Saudi Arabia are designed to save time, simplify travel procedures, and provide a balanced experience that combines comfort and exploration.",
       paragraph3:
-        "Travel Gate also provides flexibility in customizing travel packages, where destinations, type of accommodation, duration of the trip, and activities can be modified to suit travelers' preferences and different budgets.",
+        "Arizona Travel SA also provides flexibility in customizing travel packages, where destinations, type of accommodation, duration of the trip, and activities can be modified to suit travelers' preferences and different budgets.",
       explorePackages: "Explore Travel Packages",
       contactExperts: "Contact Travel Experts",
     },
     destinations: {
-      heading: "Discover Wonderful Destinations with Travel Gate",
+      heading: "Discover Wonderful Destinations with Arizona Travel SA",
       paragraph1:
-        "Travel Gate offers a wide range of professionally designed travel packages from Saudi Arabia for travelers looking for comfort, value, and organized experiences. Each package combines air tickets, hotel accommodation, transfers, activities, and expert planning in one seamless trip, so every travel detail is precisely managed.",
+        "Arizona Travel SA offers a wide range of professionally designed travel packages from Saudi Arabia for travelers looking for comfort, value, and organized experiences. Each package combines air tickets, hotel accommodation, transfers, activities, and expert planning in one seamless trip, so every travel detail is precisely managed.",
       paragraph2:
         "Whether you are planning a short vacation or a multi-country trip, our packages are designed to reduce complexity while maintaining flexibility. You can customize the destination, travel duration, and accommodation preferences to suit your goals, while benefiting from an organized and reliable plan.",
       bookTrip: "Book This Trip",
@@ -108,7 +108,7 @@ export const packages = {
       honeymoon: {
         title: "Honeymoon Travel Packages",
         paragraph1:
-          "Travel Gate offers special honeymoon travel packages for couples looking for unforgettable romantic experiences.",
+          "Arizona Travel SA offers special honeymoon travel packages for couples looking for unforgettable romantic experiences.",
         paragraph2:
           "These packages are ideal for newlyweds or couples who wish to celebrate special occasions.",
         paragraph3: "Honeymoon packages usually include:",
@@ -150,7 +150,7 @@ export const packages = {
       integrated: {
         title: "Integrated Benefits in Travel Packages",
         paragraph1:
-          "Each travel package from Travel Gate is designed to provide integrated services that include all elements of the trip.",
+          "Each travel package from Arizona Travel SA is designed to provide integrated services that include all elements of the trip.",
         paragraph2:
           "This integration of services helps ensure a comfortable travel experience from the moment of booking until return.",
         paragraph3: "Our travel package benefits include:",
@@ -167,7 +167,7 @@ export const packages = {
       trust: {
         title: "Trusted Experts in Travel Packages from Saudi Arabia",
         paragraph1:
-          "Travelers choose Travel Gate to organize travel packages from Saudi Arabia because we offer practical experience and professional support in planning international trips.",
+          "Travelers choose Arizona Travel SA to organize travel packages from Saudi Arabia because we offer practical experience and professional support in planning international trips.",
         paragraph2:
           "Our goal is to provide travel packages that combine value, comfort, and distinctive travel experiences for travelers from Saudi Arabia.",
         paragraph3: "Our clients rely on us because we offer:",
@@ -184,7 +184,7 @@ export const packages = {
     cta: {
       heading: "Start Planning with Travel Packages Today",
       paragraph1:
-        "Whether you are planning a family vacation or a honeymoon trip or a luxury travel experience or a group trip, Travel Gate provides travel packages designed to suit your needs.",
+        "Whether you are planning a family vacation or a honeymoon trip or a luxury travel experience or a group trip, Arizona Travel SA provides travel packages designed to suit your needs.",
       paragraph2:
         "Contact our travel experts today to explore travel packages from Saudi Arabia and start planning your next trip with confidence.",
       location: {
@@ -205,18 +205,18 @@ export const packages = {
     intro: {
       heading: "باقات مصممة لكل مسافر",
       paragraph1:
-        "تقدم ترافل جيت مجموعة متنوعة من باقات السفر المصممة بعناية للمسافرين من المملكة العربية السعودية الباحثين عن تجربة سفر مريحة ومتكاملة. تجمع باقاتنا السياحية بين تذاكر الطيران والإقامة في الفنادق وخدمات النقل والأنشطة السياحية ضمن برنامج سفر منظم يسهّل على المسافرين الاستمتاع برحلاتهم دون تعقيد.",
+        "تقدم أريزونا ترافل مجموعة متنوعة من باقات السفر المصممة بعناية للمسافرين من المملكة العربية السعودية الباحثين عن تجربة سفر مريحة ومتكاملة. تجمع باقاتنا السياحية بين تذاكر الطيران والإقامة في الفنادق وخدمات النقل والأنشطة السياحية ضمن برنامج سفر منظم يسهّل على المسافرين الاستمتاع برحلاتهم دون تعقيد.",
       paragraph2:
         "سواء كنت تخطط لرحلة قصيرة أو مغامرة تشمل عدة دول، فإن باقات السفر الدولية من المملكة العربية السعودية مصممة لتوفير الوقت وتبسيط إجراءات السفر، وتقديم تجربة متوازنة تجمع بين الراحة والاستكشاف.",
       paragraph3:
-        "كما توفر ترافل جيت مرونة في تخصيص باقات السفر، حيث يمكن تعديل الوجهات ونوع الإقامة ومدة الرحلة والأنشطة لتناسب تفضيلات المسافرين والميزانيات المختلفة.",
+        "كما توفر أريزونا ترافل مرونة في تخصيص باقات السفر، حيث يمكن تعديل الوجهات ونوع الإقامة ومدة الرحلة والأنشطة لتناسب تفضيلات المسافرين والميزانيات المختلفة.",
       explorePackages: "استكشف باقات السفر",
       contactExperts: "تواصل مع خبراء السفر",
     },
     destinations: {
-      heading: "اكتشف وجهات رائعة مع ترافل جيت",
+      heading: "اكتشف وجهات رائعة مع أريزونا ترافل",
       paragraph1:
-        "تقدم ترافل جيت مجموعة واسعة من باقات السفر المصممة بعناية من المملكة العربية السعودية للمسافرين الباحثين عن الراحة والقيمة والتجارب المنظمة. تجمع كل باقة بين تذاكر الطيران والإقامة في الفنادق وخدمات النقل والأنشطة والتخطيط الاحترافي في رحلة واحدة متكاملة، حيث يتم إدارة كل تفصيل من تفاصيل السفر بدقة.",
+        "تقدم أريزونا ترافل مجموعة واسعة من باقات السفر المصممة بعناية من المملكة العربية السعودية للمسافرين الباحثين عن الراحة والقيمة والتجارب المنظمة. تجمع كل باقة بين تذاكر الطيران والإقامة في الفنادق وخدمات النقل والأنشطة والتخطيط الاحترافي في رحلة واحدة متكاملة، حيث يتم إدارة كل تفصيل من تفاصيل السفر بدقة.",
       paragraph2:
         "سواء كنت تخطط لعطلة قصيرة أو رحلة تشمل عدة دول، فإن باقاتنا مصممة لتقليل التعقيد مع الحفاظ على المرونة. يمكنك تخصيص الوجهة ومدة السفر وتفضيلات الإقامة لتناسب أهدافك، مع الاستفادة من خطة منظمة وموثوقة.",
       bookTrip: "احجز هذه الرحلة",
@@ -304,7 +304,7 @@ export const packages = {
       honeymoon: {
         title: "باقات سفر شهر العسل",
         paragraph1:
-          "تقدم ترافل جيت باقات سفر خاصة لشهر العسل للأزواج الباحثين عن تجارب رومانسية لا تُنسى.",
+          "تقدم أريزونا ترافل باقات سفر خاصة لشهر العسل للأزواج الباحثين عن تجارب رومانسية لا تُنسى.",
         paragraph2:
           "هذه الباقات مثالية للمتزوجين حديثًا أو الأزواج الراغبين في الاحتفال بمناسبات خاصة.",
         paragraph3: "تشمل باقات شهر العسل عادةً:",
@@ -346,7 +346,7 @@ export const packages = {
       integrated: {
         title: "المزايا المتكاملة في باقات السفر",
         paragraph1:
-          "تم تصميم كل باقة سفر من ترافل جيت لتوفير خدمات متكاملة تشمل جميع عناصر الرحلة.",
+          "تم تصميم كل باقة سفر من أريزونا ترافل لتوفير خدمات متكاملة تشمل جميع عناصر الرحلة.",
         paragraph2:
           "يساعد هذا التكامل في الخدمات على ضمان تجربة سفر مريحة من لحظة الحجز حتى العودة.",
         paragraph3: "تشمل مزايا باقات سفرنا:",
@@ -363,7 +363,7 @@ export const packages = {
       trust: {
         title: "خبراء موثوقون في باقات السفر من المملكة العربية السعودية",
         paragraph1:
-          "يختار المسافرون ترافل جيت لتنظيم باقات السفر من المملكة العربية السعودية لأننا نقدم خبرة عملية ودعمًا مهنيًا في تخطيط الرحلات الدولية.",
+          "يختار المسافرون أريزونا ترافل لتنظيم باقات السفر من المملكة العربية السعودية لأننا نقدم خبرة عملية ودعمًا مهنيًا في تخطيط الرحلات الدولية.",
         paragraph2:
           "هدفنا هو تقديم باقات سفر تجمع بين القيمة والراحة وتجارب سفر مميزة للمسافرين من المملكة العربية السعودية.",
         paragraph3: "يثق بنا عملاؤنا لأننا نقدم:",
@@ -379,7 +379,7 @@ export const packages = {
     cta: {
       heading: "ابدأ التخطيط مع باقات السفر اليوم",
       paragraph1:
-        "سواء كنت تخطط لعطلة عائلية أو رحلة شهر عسل أو تجربة سفر فاخرة أو رحلة جماعية، توفر ترافل جيت باقات سفر مصممة لتناسب احتياجاتك.",
+        "سواء كنت تخطط لعطلة عائلية أو رحلة شهر عسل أو تجربة سفر فاخرة أو رحلة جماعية، توفر أريزونا ترافل باقات سفر مصممة لتناسب احتياجاتك.",
       paragraph2:
         "تواصل مع خبراء السفر لدينا اليوم لاستكشاف باقات السفر من المملكة العربية السعودية وبدء التخطيط لرحلتك القادمة بثقة.",
       location: {

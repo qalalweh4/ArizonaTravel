@@ -1,20 +1,20 @@
 export const whyChooseSection = {
   en: {
     headingPrefix: "Why Choose",
-    headingHighlight: "Travel Gate ?",
+    headingHighlight: "Arizona Travel SA ?",
     feature1: "24/7 Support",
     feature2: "Secure Booking",
     feature3: "Best Price",
     feature4: "Expert Team",
     reason1: {
       number: "1.",
-      title: "Why is Travel Gate a trusted travel partner",
+      title: "Why is Arizona Travel SA a trusted travel partner",
       description:
         "Because we work with a global network of trusted international partners, ensuring reliable services and premium experiences wherever you travel.",
     },
     reason2: {
       number: "2.",
-      title: "What makes Travel Gate experienced in travel services",
+      title: "What makes Arizona Travel SA experienced in travel services",
       description:
         "With over 14 years of expertise in travel planning and visa services, we know how to handle every detail with accuracy and professionalism.",
     },
@@ -33,20 +33,20 @@ export const whyChooseSection = {
   },
   ar: {
     headingPrefix: "لماذا تختار",
-    headingHighlight: "ترافل جيت ؟",
+    headingHighlight: "أريزونا ترافل ؟",
     feature1: "دعم على مدار الساعة",
     feature2: "حجز آمن",
     feature3: "أفضل سعر",
     feature4: "فريق متخصص",
     reason1: {
       number: "1.",
-      title: "لماذا تُعد ترافل جيت شريك سفر موثوق",
+      title: "لماذا تُعد أريزونا ترافل شريك سفر موثوق",
       description:
         "لأننا نتعامل مع شبكة عالمية من الشركاء الدوليين الموثوقين، مما يضمن خدمات موثوقة وتجارب مميزة في أي وجهة تسافر إليها.",
     },
     reason2: {
       number: "2.",
-      title: "ما الذي يجعل ترافل جيت ذات خبرة في خدمات السفر",
+      title: "ما الذي يجعل أريزونا ترافل ذات خبرة في خدمات السفر",
       description:
         "بخبرة تتجاوز 14 عامًا في تخطيط السفر وخدمات التأشيرات، نعرف كيف نتعامل مع كل التفاصيل بدقة واحترافية.",
     },

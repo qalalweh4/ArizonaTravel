@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
 @tailwind components;
 @tailwind utilities;
 
@@ -67,69 +69,97 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 47.4% 11.2%;
+    /* Light mode semantic tokens */
+    --background: 210 40% 97%;
+    --foreground: 212 33% 18%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 30% 90%;
+    --muted-foreground: 209 20% 45%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 47.4% 11.2%;
+    --popover: 210 40% 97%;
+    --popover-foreground: 212 33% 18%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
+    --border: 209 25% 83%;
+    --input: 209 25% 83%;
 
     --card: transparent;
-    --card-foreground: 222.2 47.4% 11.2%;
+    --card-foreground: 212 33% 18%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 9 74% 56%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 30% 90%;
+    --secondary-foreground: 212 33% 18%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 205 44% 85%;
+    --accent-foreground: 212 33% 18%;
 
     --destructive: 0 100% 50%;
     --destructive-foreground: 210 40% 98%;
 
-    --ring: 215 20.2% 65.1%;
+    --ring: 9 74% 56%;
 
     --radius: 0.5rem;
+
+    /* Light mode slate palette (inverted) */
+    --sl-50: #1E3040;
+    --sl-100: #2A4558;
+    --sl-200: #3A6080;
+    --sl-300: #4D7A98;
+    --sl-400: #6897B5;
+    --sl-500: #88B3CB;
+    --sl-600: #AACADB;
+    --sl-700: #C5D9E6;
+    --sl-800: #D8E8F2;
+    --sl-900: #EEF4F9;
+    --sl-950: #F5F9FC;
   }
 
   .dark {
-    --background: 224 71% 4%;
-    --foreground: 213 31% 91%;
+    /* Dark mode semantic tokens */
+    --background: 212 33% 13%;
+    --foreground: 205 40% 93%;
 
-    --muted: 223 47% 11%;
-    --muted-foreground: 215.4 16.3% 56.9%;
+    --muted: 209 24% 20%;
+    --muted-foreground: 205 25% 65%;
 
-    --accent: 216 34% 17%;
-    --accent-foreground: 210 40% 98%;
+    --popover: 212 33% 13%;
+    --popover-foreground: 205 40% 93%;
 
-    --popover: 224 71% 4%;
-    --popover-foreground: 215 20.2% 65.1%;
-
-    --border: 216 34% 17%;
-    --input: 216 34% 17%;
+    --border: 209 24% 23%;
+    --input: 209 24% 23%;
 
     --card: transparent;
-    --card-foreground: 213 31% 91%;
+    --card-foreground: 205 40% 93%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 1.2%;
+    --primary: 9 74% 56%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 222.2 47.4% 11.2%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 209 24% 20%;
+    --secondary-foreground: 205 40% 93%;
+
+    --accent: 205 44% 85%;
+    --accent-foreground: 212 33% 13%;
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
-    --ring: 216 34% 17%;
+    --ring: 9 74% 56%;
 
     --radius: 0.5rem;
+
+    /* Dark mode slate palette */
+    --sl-50: #F4F8FB;
+    --sl-100: #E3EDF5;
+    --sl-200: #C9DCEA;
+    --sl-300: #9BBDCE;
+    --sl-400: #6D9CB6;
+    --sl-500: #4C7F9E;
+    --sl-600: #376382;
+    --sl-700: #284E69;
+    --sl-800: #2C3A47;
+    --sl-900: #16202B;
+    --sl-950: #0E1620;
   }
 }
 

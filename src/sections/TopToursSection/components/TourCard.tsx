@@ -15,7 +15,7 @@ export const TourCard = (props: TourCardProps) => {
   const { t } = useLanguage();
 
   return (
-    <article className="bg-white shadow-[rgba(0,0,0,0.08)_0px_4px_24px_0px] box-border caret-transparent flex flex-col min-h-[auto] outline-[3px] no-underline overflow-hidden rounded-2xl">
+    <article className="bg-slate-900 shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 box-border caret-transparent flex flex-col min-h-[auto] outline-[3px] no-underline overflow-hidden rounded-2xl">
       <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] no-underline pt-2 px-2">
         <img
           alt={props.imageAlt}
@@ -25,12 +25,12 @@ export const TourCard = (props: TourCardProps) => {
         />
       </div>
       <div className="box-border caret-transparent flex basis-[0%] flex-col grow min-h-[auto] min-w-[auto] outline-[3px] no-underline pt-3 pb-5 px-4">
-        <h3 className="box-border caret-transparent text-zinc-900 font-bold leading-[20.8px] min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-1">
+        <h3 className="box-border caret-transparent text-slate-50 font-extrabold tracking-tight leading-[20.8px] min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-1">
           {props.title}
         </h3>
-        <p className="box-border caret-transparent text-stone-500 text-sm leading-[21px] min-h-[auto] min-w-[auto] outline-[3px] no-underline">
+        <p className="box-border caret-transparent text-slate-300 text-sm leading-[21px] min-h-[auto] min-w-[auto] outline-[3px] no-underline">
           {t("topToursSection.startFrom")}
-          <span className="box-border caret-transparent text-teal-500 font-semibold leading-[22.4px] outline-[3px] no-underline">
+          <span className="box-border caret-transparent text-brand-600 font-semibold leading-[22.4px] outline-[3px] no-underline">
             {props.price}
           </span>
         </p>
@@ -38,7 +38,7 @@ export const TourCard = (props: TourCardProps) => {
           <a
             href={props.callHref}
             aria-label={props.callAriaLabel}
-            className="items-center bg-orange-400 box-border caret-transparent text-sky-600 flex shrink-0 text-[19.2px] h-11 justify-center leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] no-underline w-11 rounded-[50%] md:text-base md:leading-[25.6px]"
+            className="items-center bg-sunset-500 box-border caret-transparent text-white flex shrink-0 text-[19.2px] h-11 justify-center leading-[30.72px] min-h-[auto] min-w-[auto] outline-[3px] no-underline w-11 rounded-full transition-colors hover:bg-sunset-600 md:text-base md:leading-[25.6px]"
           >
             <img
               src="https://c.animaapp.com/mq9zlaoimPKAP5/assets/icon-9.svg"
@@ -48,7 +48,7 @@ export const TourCard = (props: TourCardProps) => {
           </a>
           <a
             href={props.whatsappHref}
-            className="bg-teal-500 box-border caret-transparent text-white block basis-[0%] grow text-sm font-semibold leading-[19.6px] min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline py-3 rounded-full"
+            className="bg-brand-600 box-border caret-transparent text-white block basis-[0%] grow text-sm font-semibold leading-[19.6px] min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline py-3 rounded-lg transition-colors hover:bg-brand-700"
           >
             {props.buttonText}
           </a>

@@ -3,26 +3,26 @@ export const about = {
     hero: {
       title: "Your gateway to exceptional journeys",
       description:
-        "Travel Gate is your ideal destination for a comfortable and distinctive travel experience. We provide complete booking services including flight tickets, hotel reservations, visas, luxury holidays, cruises, and honeymoon trips to ensure a smooth journey from start to finish.",
+        "Arizona Travel SA is your ideal destination for a comfortable and distinctive travel experience. We provide complete booking services including flight tickets, hotel reservations, visas, luxury holidays, cruises, and honeymoon trips to ensure a smooth journey from start to finish.",
       cta: "Learn more",
-      imageAlt: "Travel Gate Plane",
+      imageAlt: "Arizona Travel SA Plane",
     },
     whyChoose: {
-      title: "Why choose Travel Gate?",
+      title: "Why choose Arizona Travel SA?",
       feature1: "24/7 Support",
       feature2: "Secure Booking",
       feature3: "Best Price",
       feature4: "Specialized Team",
     },
     faq: {
-      title: "About Travel Gate",
+      title: "About Arizona Travel SA",
       item1: {
-        title: "Why is Travel Gate a reliable travel partner?",
+        title: "Why is Arizona Travel SA a reliable travel partner?",
         description:
           "Because we work with a global network of trusted international partners to ensure high-quality services and distinctive experiences wherever your destination may be.",
       },
       item2: {
-        title: "What makes Travel Gate experienced in travel services?",
+        title: "What makes Arizona Travel SA experienced in travel services?",
         description:
           "With over 14 years of experience in trip planning and visa services, we manage every detail with precision and professionalism.",
       },
@@ -42,26 +42,26 @@ export const about = {
     hero: {
       title: "بوابتك إلى رحلات استثنائية",
       description:
-        "ترافل جيت هي وجهتك المثالية لتجربة سفر مريحة ومميزة. نقدم خدمات حجز شاملة تشمل تذاكر الطيران وحجوزات الفنادق والتأشيرات والعطلات الفاخرة والرحلات البحرية وشهر العسل لضمان رحلة سلسة من البداية إلى النهاية.",
+        "أريزونا ترافل هي وجهتك المثالية لتجربة سفر مريحة ومميزة. نقدم خدمات حجز شاملة تشمل تذاكر الطيران وحجوزات الفنادق والتأشيرات والعطلات الفاخرة والرحلات البحرية وشهر العسل لضمان رحلة سلسة من البداية إلى النهاية.",
       cta: "اعرف أكثر",
-      imageAlt: "طائرة ترافل جيت",
+      imageAlt: "طائرة أريزونا ترافل",
     },
     whyChoose: {
-      title: "لماذا تختار ترافل جيت؟",
+      title: "لماذا تختار أريزونا ترافل؟",
       feature1: "دعم على مدار الساعة",
       feature2: "حجز آمن",
       feature3: "أفضل سعر",
       feature4: "فريق متخصص",
     },
     faq: {
-      title: "عن ترافل جيت",
+      title: "عن أريزونا ترافل",
       item1: {
-        title: "لماذا تعد ترافل جيت شريك سفر موثوق؟",
+        title: "لماذا تعد أريزونا ترافل شريك سفر موثوق؟",
         description:
           "لأننا نعمل مع شبكة عالمية من الشركاء الدوليين الموثوقين لضمان خدمات عالية الجودة وتجارب مميزة بغض النظر عن وجهتك.",
       },
       item2: {
-        title: "ما الذي يجعل ترافل جيت ذات خبرة في خدمات السفر؟",
+        title: "ما الذي يجعل أريزونا ترافل ذات خبرة في خدمات السفر؟",
         description:
           "بخبرة تزيد عن 14 عامًا في تخطيط الرحلات وخدمات التأشيرات، نتعامل مع كل التفاصيل بدقة ومهنية.",
       },

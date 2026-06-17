@@ -3,7 +3,7 @@ export const footer = {
     columns: {
       aboutTitle: "About Us",
       aboutDescription:
-        "Travel Gate is your ideal destination for a unique and comfortable travel experience. We offer comprehensive booking services, including flight and hotel reservations, luxury vacations, honeymoon trips, cruises, restaurant bookings, travel visas, and car rentals, ensuring a seamless travel experience for you.",
+        "Arizona Travel SA is your ideal destination for a unique and comfortable travel experience. We offer comprehensive booking services, including flight and hotel reservations, luxury vacations, honeymoon trips, cruises, restaurant bookings, travel visas, and car rentals, ensuring a seamless travel experience for you.",
       contactTitle: "Contact Us",
       linksTitle: "Useful Links",
       links: {
@@ -38,14 +38,14 @@ export const footer = {
         "Bitrix24 is not responsible for the information provided in this form. However, you can always report a violation.",
     },
     bottom: {
-      copyright: "© 2026 Travel Gate – All Rights Reserved",
+      copyright: "© 2026 Arizona Travel SA – All Rights Reserved",
     },
   },
   ar: {
     columns: {
       aboutTitle: "من نحن",
       aboutDescription:
-        "تريفل جيت هي وجهتك المثالية لتجربة سفر فريدة ومريحة. نقدم خدمات حجز شاملة تشمل حجوزات الطيران والفنادق، والرحلات الفاخرة، ورحلات شهر العسل، والرحلات البحرية، وحجوزات المطاعم، وتأشيرات السفر، وتأجير السيارات، لنضمن لك تجربة سفر سلسة.",
+        "أريزونا ترافل هي وجهتك المثالية لتجربة سفر فريدة ومريحة. نقدم خدمات حجز شاملة تشمل حجوزات الطيران والفنادق، والرحلات الفاخرة، ورحلات شهر العسل، والرحلات البحرية، وحجوزات المطاعم، وتأشيرات السفر، وتأجير السيارات، لنضمن لك تجربة سفر سلسة.",
       contactTitle: "اتصل بنا",
       linksTitle: "روابط مفيدة",
       links: {
@@ -80,7 +80,7 @@ export const footer = {
         "شركة Bitrix24 غير مسؤولة عن المعلومات المقدمة في هذا النموذج. ومع ذلك، يمكنك دائمًا الإبلاغ عن أي مخالفة.",
     },
     bottom: {
-      copyright: "© 2026 تريفل جيت – جميع الحقوق محفوظة",
+      copyright: "© 2026 أريزونا ترافل – جميع الحقوق محفوظة",
     },
   },
 };

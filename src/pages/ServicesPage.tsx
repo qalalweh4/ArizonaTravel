@@ -34,17 +34,17 @@ const ServiceCardGrid = ({
       {items.map((key) => (
         <article
           key={key}
-          className="bg-stone-50 border border-stone-200 rounded-2xl p-5"
+          className="bg-slate-900 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 p-5"
         >
-          <h3 className="text-zinc-900 text-xl font-bold">
+          <h3 className="text-slate-50 text-xl font-bold">
             {t(`${namespace}.${key}.title`)}
           </h3>
-          <p className="text-stone-700 text-sm leading-8 mt-3">
+          <p className="text-slate-300 text-sm leading-8 mt-3">
             {t(`${namespace}.${key}.description`)}
           </p>
           <a
             href="/en/contactus"
-            className="inline-block mt-5 bg-orange-400 text-white text-sm font-semibold px-4 py-2 rounded-lg"
+            className="inline-block mt-5 bg-sunset-500 text-white font-semibold px-4 py-2 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
           >
             {t("services.core.viewService")}
           </a>
@@ -63,14 +63,14 @@ const ContentSection = ({
   intro: string;
   points?: string[];
 }) => (
-  <section className="bg-white py-10 md:py-14">
+  <section className="bg-slate-950 py-12 md:py-20">
     <div className="max-w-[1200px] mx-auto px-4 md:px-12">
-      <h2 className="text-zinc-900 text-2xl font-bold leading-tight md:text-3xl">
+      <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight leading-tight md:text-3xl">
         {title}
       </h2>
-      <p className="text-stone-700 text-base leading-8 mt-5">{intro}</p>
+      <p className="text-slate-300 text-base leading-8 mt-5">{intro}</p>
       {points ? (
-        <ul className="mt-5 space-y-2 list-disc pl-5 text-stone-700 text-base leading-8">
+        <ul className="mt-5 space-y-2 list-disc pl-5 text-slate-300 text-base leading-8">
           {points.map((point) => (
             <li key={point}>{point}</li>
           ))}
@@ -89,25 +89,25 @@ export const ServicesPage = () => {
       <MobileNavigation />
       <FloatingContactButtons />
 
-      <section className="relative pt-28 pb-14 md:pt-36 md:pb-20">
-        <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-zinc-800 to-orange-500" />
+      <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-brand-900 to-brand-700 py-20 md:py-28">
+        <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-sunset-500/30 blur-3xl" />
         <div className="relative max-w-[1440px] mx-auto px-4 md:px-12">
-          <h1 className="text-white text-3xl font-bold leading-tight md:text-5xl max-w-4xl">
+          <h1 className="text-white text-3xl font-extrabold tracking-tight leading-tight md:text-5xl max-w-4xl">
             {t("services.hero.title")}
           </h1>
-          <p className="text-stone-100 text-base leading-8 mt-5 md:text-lg md:leading-9 max-w-4xl">
+          <p className="text-white/80 text-base leading-8 mt-5 md:text-lg md:leading-9 max-w-4xl">
             {t("services.hero.subtitle")}
           </p>
           <div className="flex flex-wrap gap-3 mt-7">
             <a
               href="/en/packages"
-              className="bg-orange-400 text-white text-sm font-semibold px-6 py-3 rounded-lg"
+              className="bg-sunset-500 text-white font-semibold px-6 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
             >
               {t("services.hero.planTrip")}
             </a>
             <a
               href="/en/contactus"
-              className="bg-white/95 text-zinc-900 text-sm font-semibold px-6 py-3 rounded-lg"
+              className="border-2 border-white/40 text-white hover:bg-white/10 font-semibold px-6 py-3 rounded-lg transition-colors text-sm"
             >
               {t("services.hero.contactExperts")}
             </a>
@@ -120,36 +120,36 @@ export const ServicesPage = () => {
         intro={t("services.about.intro")}
       />
 
-      <section className="bg-stone-50 py-10 md:py-14">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1200px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+          <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
             {t("services.core.heading")}
           </h2>
-          <p className="text-stone-700 text-base leading-8 mt-5">
+          <p className="text-slate-300 text-base leading-8 mt-5">
             {t("services.core.intro")}
           </p>
           <ServiceCardGrid items={coreServiceKeys} namespace="services.core.items" />
         </div>
       </section>
 
-      <section className="bg-white py-10 md:py-14">
+      <section className="bg-slate-950 py-12 md:py-20">
         <div className="max-w-[1200px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+          <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
             {t("services.visa.heading")}
           </h2>
-          <p className="text-stone-700 text-base leading-8 mt-5">
+          <p className="text-slate-300 text-base leading-8 mt-5">
             {t("services.visa.intro")}
           </p>
           <ServiceCardGrid items={visaServiceKeys} namespace="services.visa.items" />
         </div>
       </section>
 
-      <section className="bg-stone-50 py-10 md:py-14">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1200px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+          <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
             {t("services.itinerary.heading")}
           </h2>
-          <div className="space-y-3 mt-5 text-stone-700 text-base leading-8">
+          <div className="space-y-3 mt-5 text-slate-300 text-base leading-8">
             <p>{t("services.itinerary.paragraph1")}</p>
             <p>{t("services.itinerary.paragraph2")}</p>
             <p>{t("services.itinerary.paragraph3")}</p>
@@ -172,21 +172,21 @@ export const ServicesPage = () => {
         ]}
       />
 
-      <section className="bg-stone-50 py-10 md:py-14">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1200px] mx-auto px-4 md:px-12">
-          <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+          <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
             {t("services.travelerTypes.heading")}
           </h2>
           <div className="grid grid-cols-1 gap-5 mt-8 md:grid-cols-3">
             {travelerTypeKeys.map((key) => (
               <article
                 key={key}
-                className="bg-white border border-stone-200 rounded-2xl p-5"
+                className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 p-5"
               >
-                <h3 className="text-zinc-900 text-xl font-bold">
+                <h3 className="text-slate-50 text-xl font-bold">
                   {t(`services.travelerTypes.items.${key}.title`)}
                 </h3>
-                <p className="text-stone-700 text-sm leading-8 mt-3">
+                <p className="text-slate-300 text-sm leading-8 mt-3">
                   {t(`services.travelerTypes.items.${key}.description`)}
                 </p>
               </article>
@@ -208,49 +208,49 @@ export const ServicesPage = () => {
         ]}
       />
 
-      <section className="bg-stone-50 py-12 md:py-16">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1100px] mx-auto px-4 md:px-12">
-          <div className="bg-white border border-stone-200 rounded-2xl p-6 md:p-8">
-            <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+          <div className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 p-6 md:p-8">
+            <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
               {t("services.cta.heading")}
             </h2>
-            <p className="text-stone-700 text-base leading-8 mt-4">
+            <p className="text-slate-300 text-base leading-8 mt-4">
               {t("services.cta.paragraph")}
             </p>
             <a
               href="/en/contactus"
-              className="inline-block mt-6 bg-orange-400 text-white text-sm font-semibold px-6 py-3 rounded-lg"
+              className="inline-block mt-6 bg-sunset-500 text-white font-semibold px-6 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
             >
               {t("services.cta.contactTeam")}
             </a>
 
             <div className="grid grid-cols-1 gap-4 mt-6 md:grid-cols-3">
-              <div className="rounded-xl border border-stone-200 p-4">
-                <h3 className="text-zinc-900 font-bold">
+              <div className="rounded-xl border border-slate-800 p-4">
+                <h3 className="text-slate-50 font-bold">
                   {t("services.cta.location.title")}
                 </h3>
-                <p className="text-stone-700 text-sm mt-2 leading-7">
+                <p className="text-slate-300 text-sm mt-2 leading-7">
                   {t("services.cta.location.address")}
                 </p>
               </div>
               <a
-                href="tel:+966112398888"
-                className="rounded-xl border border-stone-200 p-4 block"
+                href="tel:+966541272537"
+                className="rounded-xl border border-slate-800 p-4 block hover:shadow-soft transition-shadow"
               >
-                <h3 className="text-zinc-900 font-bold">
+                <h3 className="text-slate-50 font-bold">
                   {t("services.cta.phone.title")}
                 </h3>
-                <p className="text-stone-700 text-sm mt-2">+966112398888</p>
+                <p className="text-slate-300 text-sm mt-2">+966 54 127 2537</p>
               </a>
               <a
-                href="mailto:info@travelgateksa.com"
-                className="rounded-xl border border-stone-200 p-4 block"
+                href="mailto:info@arizonatravelsa.com"
+                className="rounded-xl border border-slate-800 p-4 block hover:shadow-soft transition-shadow"
               >
-                <h3 className="text-zinc-900 font-bold">
+                <h3 className="text-slate-50 font-bold">
                   {t("services.cta.email.title")}
                 </h3>
-                <p className="text-stone-700 text-sm mt-2">
-                  info@travelgateksa.com
+                <p className="text-slate-300 text-sm mt-2">
+                  info@arizonatravelsa.com
                 </p>
               </a>
             </div>

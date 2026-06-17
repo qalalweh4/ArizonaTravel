@@ -5,9 +5,9 @@ export const TopToursSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-stone-50 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline py-6 font-cairo md:py-10">
+    <section className="bg-slate-900 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline py-12 font-cairo md:py-20">
       <div className="box-border caret-transparent max-w-[1440px] outline-[3px] no-underline mx-auto px-4 md:px-12">
-        <h2 className="box-border caret-transparent text-zinc-900 text-[28px] font-bold leading-[33.6px] outline-[3px] text-center no-underline mb-10 py-0 md:text-[38.4px] md:leading-[46.08px] md:pt-[18px] md:pb-2.5">
+        <h2 className="box-border caret-transparent text-slate-50 text-3xl font-extrabold tracking-tight leading-tight outline-[3px] text-center no-underline mb-10 py-0 md:text-4xl md:pt-[18px] md:pb-2.5">
           {t("topToursSection.heading.part1")}
           <br className="box-border caret-transparent text-[28px] leading-[44.8px] outline-[3px] no-underline md:text-[38.4px] md:leading-[61.44px]" />
           {t("topToursSection.heading.part2")}
@@ -20,8 +20,8 @@ export const TopToursSection = () => {
               imageSrc="https://c.animaapp.com/mq9zlaoimPKAP5/assets/180.jpg"
               price="6495SAR"
               callAriaLabel={t("topToursSection.tour1.callAriaLabel")}
-              callHref="tel://+966112398888"
-              whatsappHref="https://wa.me/966112398888"
+              callHref="tel://+966541272537"
+              whatsappHref="https://wa.me/966541272537"
               buttonText={t("topToursSection.bookNow")}
             />
             <TourCard
@@ -30,8 +30,8 @@ export const TopToursSection = () => {
               imageSrc="https://c.animaapp.com/mq9zlaoimPKAP5/assets/259.jpg"
               price="4650SAR"
               callAriaLabel={t("topToursSection.tour2.callAriaLabel")}
-              callHref="tel://+966112398888"
-              whatsappHref="https://wa.me/966112398888"
+              callHref="tel://+966541272537"
+              whatsappHref="https://wa.me/966541272537"
               buttonText={t("topToursSection.bookNow")}
             />
             <TourCard
@@ -40,8 +40,8 @@ export const TopToursSection = () => {
               imageSrc="https://c.animaapp.com/mq9zlaoimPKAP5/assets/202.jpg"
               price="5395SAR"
               callAriaLabel={t("topToursSection.tour3.callAriaLabel")}
-              callHref="tel://+966112398888"
-              whatsappHref="https://wa.me/966112398888"
+              callHref="tel://+966541272537"
+              whatsappHref="https://wa.me/966541272537"
               buttonText={t("topToursSection.bookNow")}
             />
             <TourCard
@@ -50,8 +50,8 @@ export const TopToursSection = () => {
               imageSrc="https://c.animaapp.com/mq9zlaoimPKAP5/assets/188.jpg"
               price="3595SAR"
               callAriaLabel={t("topToursSection.tour4.callAriaLabel")}
-              callHref="tel://+966112398888"
-              whatsappHref="https://wa.me/966112398888"
+              callHref="tel://+966541272537"
+              whatsappHref="https://wa.me/966541272537"
               buttonText={t("topToursSection.bookNow")}
             />
           </div>

@@ -1,10 +1,12 @@
 export type CarouselControlsProps = {
   variant: string;
-  ariaLabel: string;
-  buttonVariant: string;
-  iconSrc: string;
+  ariaLabel?: string;
+  buttonVariant?: string;
+  iconSrc?: string;
   indicators: string[];
   activeIndicatorIndex: string;
+  onClick?: () => void;
+  onIndicatorSelect?: (index: number) => void;
 };
 
 export const CarouselControls = (props: CarouselControlsProps) => {
@@ -14,11 +16,13 @@ export const CarouselControls = (props: CarouselControlsProps) => {
         {props.indicators.map((ariaLabel, index) => (
           <button
             key={ariaLabel}
+            type="button"
             aria-label={ariaLabel}
+            onClick={() => props.onIndicatorSelect?.(index)}
             className={
               index.toString() === props.activeIndicatorIndex
-                ? "appearance-none bg-orange-400 caret-transparent text-white block h-2 min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline w-2 mx-1 p-0 rounded-[50%] scale-[1.3]"
-                : "appearance-none bg-black caret-transparent text-white block h-2 min-h-[auto] min-w-[auto] opacity-20 outline-[3px] text-center no-underline w-2 mx-1 p-0 rounded-[50%]"
+                ? "appearance-none bg-sunset-500 caret-transparent text-white block h-2 min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline w-2 mx-1 p-0 rounded-full scale-[1.3]"
+                : "appearance-none bg-black caret-transparent text-white block h-2 min-h-[auto] min-w-[auto] opacity-20 outline-[3px] text-center no-underline w-2 mx-1 p-0 rounded-full"
             }
           ></button>
         ))}
@@ -30,12 +34,13 @@ export const CarouselControls = (props: CarouselControlsProps) => {
     <button
       type="button"
       aria-label={props.ariaLabel}
-      className={`items-center backdrop-blur-[10px] bg-white/10 shadow-[rgba(0,0,0,0.18)_0px_6px_18px_0px] caret-transparent text-white hidden h-11 justify-center opacity-0 outline-[3px] absolute text-center no-underline transform-none invisible w-11 z-[4] border p-0 rounded-[50%] border-white/20 top-2/4 md:flex md:opacity-100 md:translate-y-[-50.0%] md:visible hover:shadow-[rgba(0,0,0,0.22)_0px_10px_22px_0px] ${props.buttonVariant}`}
+      onClick={props.onClick}
+      className={`items-center backdrop-blur-[10px] bg-white/10 shadow-soft caret-transparent text-white flex h-11 justify-center outline-[3px] absolute text-center no-underline w-11 z-[4] border p-0 rounded-full border-white/20 top-2/4 -translate-y-1/2 hover:shadow-card ${props.buttonVariant}`}
     >
       <img
         src={props.iconSrc}
         alt="Icon"
-        className="box-border caret-transparent text-3xl h-[18px] leading-[48px] outline-[3px] no-underline invisible w-[18px] md:visible"
+        className="box-border caret-transparent text-3xl h-[18px] leading-[48px] outline-[3px] no-underline w-[18px]"
       />
     </button>
   );

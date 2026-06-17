@@ -1,19 +1,20 @@
 import { AccreditationCard } from "@/sections/AccreditationsSection/components/AccreditationCard";
 import { useLanguage } from "@/i18n/LanguageContext";
+import licenseCert from "@/assets/images/license.png";
 
 export const AccreditationsSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-stone-50 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline pt-6 pb-10 font-cairo md:pt-10 md:pb-20">
+    <section className="bg-slate-950 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline pt-12 pb-12 font-cairo md:pt-20 md:pb-20">
       <div className="box-border caret-transparent max-w-[1440px] outline-[3px] no-underline mx-auto px-4 md:px-12">
         <div className="box-border caret-transparent outline-[3px] no-underline mb-10">
-          <p className="box-border caret-transparent text-zinc-900 text-4xl font-bold leading-[45px] outline-[3px] no-underline mb-3 md:text-5xl md:leading-[60px]">
+          <p className="box-border caret-transparent text-slate-50 font-extrabold tracking-tight text-4xl leading-[45px] outline-[3px] no-underline mb-3 md:text-5xl md:leading-[60px]">
             {t("accreditationsSection.heading.part1")}
             <br className="box-border caret-transparent text-4xl leading-[57.6px] outline-[3px] no-underline md:text-5xl md:leading-[76.8px]" />
             {t("accreditationsSection.heading.part2")}
           </p>
-          <p className="box-border caret-transparent text-orange-400 font-medium leading-[26px] max-w-sm outline-[3px] no-underline mb-4">
+          <p className="box-border caret-transparent text-sunset-500 font-medium leading-[26px] max-w-sm outline-[3px] no-underline mb-4">
             {t("accreditationsSection.subheading")}
           </p>
         </div>
@@ -25,8 +26,8 @@ export const AccreditationsSection = () => {
           />
           <AccreditationCard
             variant="ministry"
-            imageAlt="Ministry of Tourism"
-            imageSrc="https://c.animaapp.com/mq9zlaoimPKAP5/assets/195.png"
+            imageAlt="Ministry of Tourism License"
+            imageSrc={licenseCert}
             imageSizes="100vw"
           />
           <AccreditationCard

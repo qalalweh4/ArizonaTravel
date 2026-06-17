@@ -6,10 +6,10 @@ export const ServicesSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-stone-50 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline pt-10 pb-6 font-cairo md:pt-16 md:pb-10">
+    <section className="bg-slate-900 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline py-12 font-cairo md:py-20">
       <div className="box-border caret-transparent max-w-[1440px] outline-[3px] no-underline mx-auto px-4 md:px-12">
         <div className="box-border caret-transparent outline-[3px] no-underline mb-10">
-          <h2 className="box-border caret-transparent text-zinc-900 text-3xl font-bold leading-[37.5px] outline-[3px] text-center no-underline mb-2 py-0 md:text-4xl md:leading-[45px] md:pt-[18px] md:pb-2.5">
+          <h2 className="box-border caret-transparent text-slate-50 text-3xl font-extrabold tracking-tight leading-[37.5px] outline-[3px] text-center no-underline mb-2 py-0 md:text-4xl md:leading-[45px] md:pt-[18px] md:pb-2.5">
             {t("servicesSection.heading")}
           </h2>
         </div>

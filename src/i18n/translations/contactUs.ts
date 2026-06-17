@@ -1,14 +1,14 @@
 export const contactUs = {
   en: {
     hero: {
-      title: "Contact the Travel Gate team",
+      title: "Contact the Arizona Travel SA team",
       subtitle:
         "We design a complete travel experience for you from the first consultation until your return.",
     },
     methods: {
       office: { title: "Our main office", content: "Riyadh, Saudi Arabia" },
-      call: { title: "Call us", content: "+966112398888" },
-      email: { title: "Email us", content: "info@travelgateksa.com" },
+      call: { title: "Call us", content: "+966 54 127 2537" },
+      email: { title: "Email us", content: "info@arizonatravelsa.com" },
       hours: {
         title: "Working hours",
         content:
@@ -47,14 +47,14 @@ export const contactUs = {
   },
   ar: {
     hero: {
-      title: "تواصل مع فريق ترافل جيت",
+      title: "تواصل مع فريق أريزونا ترافل",
       subtitle:
         "نصمم لك تجربة سفر متكاملة منذ الاستشارة الأولى وحتى عودتك.",
     },
     methods: {
       office: { title: "مكتبنا الرئيسي", content: "الرياض، المملكة العربية السعودية" },
-      call: { title: "اتصل بنا", content: "+966112398888" },
-      email: { title: "راسلنا", content: "info@travelgateksa.com" },
+      call: { title: "اتصل بنا", content: "+966 54 127 2537" },
+      email: { title: "راسلنا", content: "info@arizonatravelsa.com" },
       hours: {
         title: "ساعات العمل",
         content:

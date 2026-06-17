@@ -17,44 +17,44 @@ export const CareersPage = () => {
       <MobileNavigation />
       <FloatingContactButtons />
 
-      <section className="relative pt-28 pb-14 md:pt-36 md:pb-20">
-        <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 to-zinc-700" />
+      <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-brand-900 to-brand-700 py-20 md:py-28">
+        <div className="pointer-events-none absolute -left-24 -bottom-24 h-72 w-72 rounded-full bg-sunset-500/30 blur-3xl" />
         <div className="relative max-w-[1440px] mx-auto px-4 md:px-12">
-          <h1 className="text-white text-4xl font-bold leading-tight md:text-6xl">
+          <h1 className="text-white text-4xl font-extrabold tracking-tight leading-tight md:text-6xl">
             {t("careers.hero.title")}
           </h1>
-          <p className="text-stone-100 text-base leading-7 mt-4 md:text-2xl md:leading-9">
+          <p className="text-white/80 text-base leading-7 mt-4 md:text-2xl md:leading-9">
             {t("careers.hero.subtitle")}
           </p>
         </div>
       </section>
 
-      <section className="bg-white py-10 md:py-14">
+      <section className="bg-slate-950 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
-          <p className="text-stone-600 text-base leading-8 md:text-lg max-w-4xl">
+          <p className="text-slate-300 text-base leading-8 md:text-lg max-w-4xl">
             {t("careers.intro")}
           </p>
         </div>
       </section>
 
-      <section className="bg-stone-50 py-12 md:py-20">
+      <section className="bg-slate-900 py-12 md:py-20">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
           <div className="grid grid-cols-1 gap-5 md:gap-7">
             {jobKeys.map((jobKey) => (
               <article
                 key={jobKey}
-                className="bg-white border border-stone-200 rounded-2xl p-6 md:p-8"
+                className="bg-slate-950 rounded-2xl shadow-card border border-slate-800 hover:shadow-lifted hover:-translate-y-0.5 transition-all duration-200 p-6 md:p-8"
               >
-                <h2 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+                <h2 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
                   {t(`careers.jobs.${jobKey}.title`)}
                 </h2>
-                <p className="text-stone-500 text-sm mt-2 md:text-base">
+                <p className="text-slate-400 text-sm mt-2 md:text-base">
                   {t(`careers.jobs.${jobKey}.location`)}
                 </p>
-                <p className="text-orange-500 text-sm font-semibold mt-2 md:text-base">
+                <p className="text-sunset-500 text-sm font-semibold mt-2 md:text-base">
                   {t(`careers.jobs.${jobKey}.type`)}
                 </p>
-                <p className="text-stone-700 text-base leading-7 mt-4 md:text-lg md:leading-8">
+                <p className="text-slate-300 text-base leading-7 mt-4 md:text-lg md:leading-8">
                   {t(`careers.jobs.${jobKey}.description`)}
                 </p>
               </article>
@@ -63,19 +63,19 @@ export const CareersPage = () => {
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-16">
+      <section className="bg-slate-950 py-12 md:py-20">
         <div className="max-w-[900px] mx-auto px-4 text-center">
-          <h3 className="text-zinc-900 text-2xl font-bold md:text-3xl">
+          <h3 className="text-slate-50 text-2xl font-extrabold tracking-tight md:text-3xl">
             {t("careers.cta.title")}
           </h3>
-          <p className="text-stone-600 text-base leading-7 mt-4 md:text-lg">
+          <p className="text-slate-300 text-base leading-7 mt-4 md:text-lg">
             {t("careers.cta.description")}
           </p>
           <a
-            href="mailto:info@travelgateksa.com"
-            className="inline-block bg-orange-400 text-white text-sm font-semibold mt-6 px-7 py-3 rounded-lg"
+            href="mailto:info@arizonatravelsa.com"
+            className="inline-block bg-sunset-500 text-white font-semibold mt-6 px-7 py-3 rounded-lg shadow-soft hover:bg-sunset-600 transition-colors text-sm"
           >
-            info@travelgateksa.com
+            info@arizonatravelsa.com
           </a>
         </div>
       </section>

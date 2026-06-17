@@ -4,19 +4,20 @@ export const WorldMapSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-stone-50 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline overflow-hidden pt-10 pb-6 font-cairo md:pt-20 md:pb-10">
+    <section className="bg-slate-900 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline overflow-hidden py-12 font-cairo md:py-20">
       <div className="box-border caret-transparent outline-[3px] text-center no-underline mb-8 px-4">
-        <h2 className="box-border caret-transparent text-teal-500 text-3xl font-bold leading-9 outline-[3px] no-underline mb-4 py-0 md:text-5xl md:leading-[48px] md:pt-[18px] md:pb-2.5">
+        <h2 className="box-border caret-transparent text-brand-600 font-extrabold tracking-tight text-3xl leading-9 outline-[3px] no-underline mb-4 py-0 md:text-5xl md:leading-[48px] md:pt-[18px] md:pb-2.5">
           {t("worldMapSection.heading")}
         </h2>
-        <p className="box-border caret-transparent text-zinc-900 text-base leading-[26px] max-w-xl outline-[3px] no-underline mb-4 mx-auto md:text-lg md:leading-[29.25px]">
+        <p className="box-border caret-transparent text-slate-300 text-base leading-[26px] max-w-xl outline-[3px] no-underline mb-4 mx-auto md:text-lg md:leading-[29.25px]">
           {t("worldMapSection.description")}
         </p>
       </div>
       <div className="items-center box-border caret-transparent flex h-[317px] justify-center max-w-[720px] outline-[3px] relative no-underline w-full mx-auto md:h-[608px]">
-        <div className="bg-[radial-gradient(circle_at_50%_45%,rgba(0,186,179,0.22)_0%,rgba(0,186,179,0.06)_40%,rgba(248,248,246,0)_70%)] box-border caret-transparent blur-0 outline-[3px] pointer-events-none absolute no-underline z-0 inset-0"></div>
-        <div className="bg-[radial-gradient(circle,rgba(0,186,179,0.06)_1px,rgba(0,0,0,0)_1px)] bg-size-[30px_30px] box-border caret-transparent outline-[3px] pointer-events-none absolute no-underline z-0 inset-0"></div>
-        <div className="shadow-[rgba(0,186,179,0.18)_0px_0px_30px_0px] box-border caret-transparent outline-[3px] absolute no-underline translate-x-[-50.0%] translate-y-[-50.0%] z-[1] rounded-[999px] left-2/4 top-2/4">
+        <div className="bg-[radial-gradient(circle_at_50%_45%,rgba(14,126,117,0.18)_0%,rgba(14,126,117,0.06)_40%,rgba(248,248,246,0)_70%)] box-border caret-transparent blur-0 outline-[3px] pointer-events-none absolute no-underline z-0 inset-0"></div>
+        <div className="bg-[radial-gradient(circle_at_70%_70%,rgba(255,107,74,0.10)_0%,rgba(255,107,74,0)_60%)] box-border caret-transparent outline-[3px] pointer-events-none absolute no-underline z-0 inset-0"></div>
+        <div className="bg-[radial-gradient(circle,rgba(14,126,117,0.06)_1px,rgba(0,0,0,0)_1px)] bg-size-[30px_30px] box-border caret-transparent outline-[3px] pointer-events-none absolute no-underline z-0 inset-0"></div>
+        <div className="shadow-[rgba(14,126,117,0.18)_0px_0px_30px_0px] box-border caret-transparent outline-[3px] absolute no-underline translate-x-[-50.0%] translate-y-[-50.0%] z-[1] rounded-full left-2/4 top-2/4">
           <div className="box-border caret-transparent outline-[3px] no-underline">
             <div className="box-border caret-transparent outline-[3px] relative no-underline">
               <div className="box-border caret-transparent outline-[3px] no-underline">

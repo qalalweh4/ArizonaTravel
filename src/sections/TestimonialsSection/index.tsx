@@ -5,16 +5,16 @@ export const TestimonialsSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-white box-border caret-transparent leading-[25.6px] outline-[3px] no-underline py-10 font-cairo md:py-20">
+    <section className="bg-slate-950 box-border caret-transparent leading-[25.6px] outline-[3px] no-underline py-12 font-cairo md:py-20">
       <div className="box-border caret-transparent max-w-[1440px] outline-[3px] no-underline mx-auto px-4 md:px-12">
         <div className="items-center box-border caret-transparent flex flex-col outline-[3px] text-center no-underline mb-12">
-          <div className="items-center bg-teal-500 box-border caret-transparent flex h-12 justify-center min-h-[auto] min-w-[auto] outline-[3px] no-underline w-12 mb-5 rounded-lg">
+          <div className="items-center bg-brand-600 box-border caret-transparent flex h-12 justify-center min-h-[auto] min-w-[auto] outline-[3px] no-underline w-12 mb-5 rounded-lg">
             <i className="box-border caret-transparent text-white block text-xl font-black leading-7 min-h-[auto] min-w-[auto] outline-[3px] no-underline w-[25px] font-font_awesome_7_free before:accent-auto before:box-border before:caret-transparent before:text-white before:text-xl before:not-italic before:normal-nums before:font-black before:tracking-[normal] before:leading-7 before:list-outside before:list-disc before:outline-[3px] before:pointer-events-auto before:text-center before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-font_awesome_7_free"></i>
           </div>
-          <h2 className="box-border caret-transparent text-zinc-900 text-3xl font-bold leading-9 min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-3 py-0 md:text-4xl md:leading-10 md:pt-[18px] md:pb-2.5">
+          <h2 className="box-border caret-transparent text-slate-50 font-extrabold tracking-tight text-3xl leading-9 min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-3 py-0 md:text-4xl md:leading-10 md:pt-[18px] md:pb-2.5">
             {t("testimonialsSection.heading")}
           </h2>
-          <p className="box-border caret-transparent text-orange-400 font-medium leading-6 min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-4">
+          <p className="box-border caret-transparent text-sunset-500 font-medium leading-6 min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-4">
             {t("testimonialsSection.subheading")}
           </p>
         </div>
