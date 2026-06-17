@@ -3,9 +3,11 @@ import tailwind from "tailwindcss";
 import { defineConfig } from "vite";
 import path from "path";
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), cloudflare()],
   publicDir: "./static",
   base: "./",
   css: {
