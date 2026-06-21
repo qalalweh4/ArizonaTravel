@@ -60,7 +60,7 @@ export const FooterMapAndContactInfo = () => {
           />
         </a>
         <a
-          href="https://www.instagram.com/travelgate.ksa/"
+          href=""
           aria-label="Instagram"
           className="box-border caret-transparent text-slate-50 block text-xl font-bold leading-7 min-h-[auto] min-w-[auto] outline-[3px] no-underline"
         >
@@ -71,7 +71,7 @@ export const FooterMapAndContactInfo = () => {
           />
         </a>
         <a
-          href="https://www.snapchat.com/add/travelgateksa"
+          href=""
           aria-label="Snapchat"
           className="box-border caret-transparent text-slate-50 block text-xl font-bold leading-7 min-h-[auto] min-w-[auto] outline-[3px] no-underline"
         >
@@ -82,7 +82,7 @@ export const FooterMapAndContactInfo = () => {
           />
         </a>
         <a
-          href="https://www.linkedin.com/company/travelgateksa/"
+          href=""
           aria-label="LinkedIn"
           className="box-border caret-transparent text-slate-50 block text-xl font-bold leading-7 min-h-[auto] min-w-[auto] outline-[3px] no-underline"
         >
@@ -93,7 +93,7 @@ export const FooterMapAndContactInfo = () => {
           />
         </a>
         <a
-          href="https://www.tiktok.com/@travelgate.ksa"
+          href=""
           aria-label="TikTok"
           className="box-border caret-transparent text-slate-50 block text-xl font-bold leading-7 min-h-[auto] min-w-[auto] outline-[3px] no-underline"
         >
@@ -104,7 +104,7 @@ export const FooterMapAndContactInfo = () => {
           />
         </a>
         <a
-          href="https://x.com/travelgateksa"
+          href=""
           aria-label="X (Twitter)"
           className="box-border caret-transparent text-slate-50 block text-xl font-bold leading-7 min-h-[auto] min-w-[auto] outline-[3px] no-underline"
         >
