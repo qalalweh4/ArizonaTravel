@@ -6,7 +6,7 @@ export const FooterMapAndContactInfo = () => {
   return (
     <div className="box-border caret-transparent gap-x-4 flex flex-col shrink-0 min-h-[auto] min-w-[auto] outline-[3px] gap-y-4 no-underline w-auto md:w-[55%]">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14493.032316847084!2d46.764865!3d24.752339!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f01bcf28c3651%3A0x4d8ad2468e991297!2z2KrYsdmB2YQg2KzZitiqINmE2YTYs9mB2LEg2YjYp9mE2LPZitin2K3YqQ!5e0!3m2!1sar!2seg!4v1712885149435!5m2!1sar!2seg"
+        src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1s24.693673,46.671189!6i16!3m1!1sar!5m1!1sar"
         title="Arizona Travel SA main location"
         className="box-border caret-transparent h-[200px] min-h-[auto] min-w-[auto] outline-[3px] no-underline w-full"
       ></iframe>

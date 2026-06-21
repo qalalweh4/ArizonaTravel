@@ -8,14 +8,15 @@ interface ThemeContextType {
 }
 
 const ThemeContext = createContext<ThemeContextType>({
-  theme: "dark",
+  theme: "light",
   toggleTheme: () => {},
 });
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  const [theme, setTheme] = useState<Theme>(() => {
-    return (localStorage.getItem("az-theme") as Theme) || "light";
-  });
+  // Always start in light mode on every visit. The toggle still switches to
+  // dark within the session, but the choice is intentionally not persisted, so
+  // a fresh visit (reload / new tab) always defaults back to light.
+  const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
     const root = document.documentElement;
@@ -24,7 +25,6 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     } else {
       root.classList.remove("dark");
     }
-    localStorage.setItem("az-theme", theme);
   }, [theme]);
 
   const toggleTheme = () => {

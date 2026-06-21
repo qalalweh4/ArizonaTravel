@@ -23,7 +23,6 @@ export const FooterMain = () => {
             emailHref="mailto://info@arizonatravelsa.com"
             emailText="info@arizonatravelsa.com"
             firstAddress={t("footer.contactInfo.firstAddress")}
-            secondAddress={t("footer.contactInfo.secondAddress")}
             links={[]}
           />
           <FooterColumn

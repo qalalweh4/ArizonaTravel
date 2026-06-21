@@ -1,6 +1,5 @@
 import { AccreditationCard } from "@/sections/AccreditationsSection/components/AccreditationCard";
 import { useLanguage } from "@/i18n/LanguageContext";
-import licenseCert from "@/assets/images/license.png";
 
 export const AccreditationsSection = () => {
   const { t } = useLanguage();
@@ -18,17 +17,11 @@ export const AccreditationsSection = () => {
             {t("accreditationsSection.subheading")}
           </p>
         </div>
-        <div className="box-border caret-transparent gap-x-5 grid grid-cols-[repeat(2,minmax(0px,1fr))] outline-[3px] gap-y-5 no-underline md:grid-cols-[repeat(5,minmax(0px,1fr))]">
+        <div className="box-border caret-transparent gap-x-5 grid grid-cols-[repeat(2,minmax(0px,1fr))] outline-[3px] gap-y-5 no-underline md:grid-cols-[repeat(4,minmax(0px,1fr))]">
           <AccreditationCard
             variant="iata"
             imageAlt="IATA"
             imageSrc="https://c.animaapp.com/mq9zlaoimPKAP5/assets/116.png"
-          />
-          <AccreditationCard
-            variant="ministry"
-            imageAlt="Ministry of Tourism License"
-            imageSrc={licenseCert}
-            imageSizes="100vw"
           />
           <AccreditationCard
             variant="default"

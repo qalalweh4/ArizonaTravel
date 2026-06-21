@@ -7,7 +7,6 @@ export type FooterColumnProps = {
   emailHref: string;
   emailText: string;
   firstAddress: string;
-  secondAddress: string;
   links: {
     href: string;
     text: string;
@@ -51,12 +50,6 @@ export const FooterColumn = (props: FooterColumnProps) => {
             <i className="box-border caret-transparent text-brand-600 block shrink-0 font-black leading-6 min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline w-5 mt-0.5 font-font_awesome_7_free before:accent-auto before:box-border before:caret-transparent before:text-brand-600 before:text-base before:not-italic before:normal-nums before:font-black before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:text-center before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-font_awesome_7_free"></i>
             <span className="box-border caret-transparent text-slate-300 block text-sm leading-5 min-h-[auto] min-w-[auto] outline-[3px] no-underline">
               {props.firstAddress}
-            </span>
-          </li>
-          <li className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] no-underline mb-2.5 items-start gap-x-3 flex gap-y-3">
-            <i className="box-border caret-transparent text-brand-600 block shrink-0 font-black leading-6 min-h-[auto] min-w-[auto] outline-[3px] text-center no-underline w-5 mt-0.5 font-font_awesome_7_free before:accent-auto before:box-border before:caret-transparent before:text-brand-600 before:text-base before:not-italic before:normal-nums before:font-black before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:text-center before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-font_awesome_7_free"></i>
-            <span className="box-border caret-transparent text-slate-300 block text-sm leading-5 min-h-[auto] min-w-[auto] outline-[3px] no-underline">
-              {props.secondAddress}
             </span>
           </li>
         </ul>

@@ -189,7 +189,7 @@ export const packages = {
         "Contact our travel experts today to explore travel packages from Saudi Arabia and start planning your next trip with confidence.",
       location: {
         title: "Location",
-        address: "Khalid bin Al-Waleed Road - King Faisal - Riyadh",
+        address: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
       },
       phone: { title: "Phone" },
       email: { title: "Email" },
@@ -384,7 +384,7 @@ export const packages = {
         "تواصل مع خبراء السفر لدينا اليوم لاستكشاف باقات السفر من المملكة العربية السعودية وبدء التخطيط لرحلتك القادمة بثقة.",
       location: {
         title: "الموقع",
-        address: "طريق خالد بن الوليد - حي الفيصلية - الرياض",
+        address: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
       },
       phone: { title: "الهاتف" },
       email: { title: "البريد الإلكتروني" },

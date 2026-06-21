@@ -68,8 +68,8 @@ export const education = {
       title: "Contact us",
       location: {
         title: "Location",
-        line1: "Khalid bin Al-Waleed Road - King Faisal - Riyadh",
-        line2: "Khalid bin Al-Waleed Road - Granada District - Riyadh",
+        line1: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
+        line2: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
       },
       phone: {
         title: "Phone",
@@ -144,8 +144,8 @@ export const education = {
       title: "تواصل معنا",
       location: {
         title: "الموقع",
-        line1: "طريق خالد بن الوليد - الملك فيصل - الرياض",
-        line2: "طريق خالد بن الوليد - حي غرناطة - الرياض",
+        line1: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
+        line2: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
       },
       phone: {
         title: "الهاتف",

@@ -202,9 +202,6 @@ export const EducationPage = () => {
                 <p className="text-slate-300 text-sm leading-7 mt-2">
                   {t("education.contact.location.line1")}
                 </p>
-                <p className="text-slate-300 text-sm leading-7">
-                  {t("education.contact.location.line2")}
-                </p>
               </div>
               <div className="bg-slate-900 rounded-xl p-4">
                 <h3 className="text-slate-50 font-bold">

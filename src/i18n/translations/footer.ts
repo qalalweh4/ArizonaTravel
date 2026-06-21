@@ -18,8 +18,8 @@ export const footer = {
       location: "Location",
       phone: "Phone",
       email: "Email",
-      firstAddress: "Khalid Bin Al-Walid Road - King Faisal - Riyadh",
-      secondAddress: "Khalid Bin Al-Walid Road - Gharnata District - Riyadh",
+      firstAddress: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
+      secondAddress: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
     },
     contactForm: {
       heading: "Get in Touch with Us",
@@ -60,8 +60,8 @@ export const footer = {
       location: "الموقع",
       phone: "الهاتف",
       email: "البريد الإلكتروني",
-      firstAddress: "طريق خالد بن الوليد - حي الفيصلية - الرياض",
-      secondAddress: "طريق خالد بن الوليد - حي غرناطة - الرياض",
+      firstAddress: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
+      secondAddress: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
     },
     contactForm: {
       heading: "تواصل معنا",

@@ -126,7 +126,7 @@ export const services = {
       contactTeam: "Contact our team",
       location: {
         title: "Location",
-        address: "Khalid bin Al-Waleed Road - King Faisal - Riyadh",
+        address: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
       },
       phone: { title: "Phone" },
       email: { title: "Email" },
@@ -256,7 +256,7 @@ export const services = {
       contactTeam: "تواصل مع فريقنا",
       location: {
         title: "الموقع",
-        address: "طريق خالد بن الوليد - حي الفيصلية - الرياض",
+        address: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
       },
       phone: { title: "الهاتف" },
       email: { title: "البريد الإلكتروني" },

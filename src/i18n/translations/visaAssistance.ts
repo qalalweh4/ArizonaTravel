@@ -143,7 +143,7 @@ export const visaAssistance = {
       contactExperts: "Contact Travel Experts",
       location: {
         title: "Location",
-        address: "Khalid bin Al-Walid Road - King Faisal - Riyadh",
+        address: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
       },
       phone: { title: "Phone" },
       email: { title: "Email" },
@@ -288,7 +288,7 @@ export const visaAssistance = {
       contactExperts: "تواصل مع خبراء السفر",
       location: {
         title: "الموقع",
-        address: "طريق خالد بن الوليد - حي الفيصلية - الرياض",
+        address: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
       },
       phone: { title: "الهاتف" },
       email: { title: "البريد الإلكتروني" },

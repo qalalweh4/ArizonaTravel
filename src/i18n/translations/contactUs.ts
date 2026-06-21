@@ -37,8 +37,8 @@ export const contactUs = {
       subheading: "We are here to help with all your travel needs at any time.",
       location: {
         title: "Location",
-        firstAddress: "Khalid bin Al-Waleed Road - King Faisal - Riyadh",
-        secondAddress: "Khalid bin Al-Waleed Road - Granada District - Riyadh",
+        firstAddress: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
+        secondAddress: "Prince Mohammed bin Abdulaziz Road - Opposite Panorama Mall - Al-Olaya District, Riyadh",
       },
       phone: { title: "Phone" },
       email: { title: "Email" },
@@ -83,8 +83,8 @@ export const contactUs = {
       subheading: "نحن هنا لمساعدتك في جميع احتياجاتك السفرية في أي وقت.",
       location: {
         title: "الموقع",
-        firstAddress: "طريق خالد بن الوليد - حي الفيصلية - الرياض",
-        secondAddress: "طريق خالد بن الوليد - حي غرناطة - الرياض",
+        firstAddress: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
+        secondAddress: "طريق الأمير محمد بن عبدالعزيز مقابل بانوراما مول – حي العليا الرياض",
       },
       phone: { title: "الهاتف" },
       email: { title: "البريد الإلكتروني" },
