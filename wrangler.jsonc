@@ -1,7 +1,7 @@
 {
   // Cloudflare Workers (static assets) config for the Arizona Travel site.
   // The worker name must match the existing production worker.
-  "name": "arizonatravel",
+  "name": "arizonatravel2",
   "compatibility_date": "2026-06-21",
   "assets": {
     // Vite build output served as static assets.
