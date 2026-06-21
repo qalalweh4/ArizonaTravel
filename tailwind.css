@@ -69,97 +69,99 @@
 
 @layer base {
   :root {
-    /* Light mode semantic tokens */
-    --background: 210 40% 97%;
-    --foreground: 212 33% 18%;
+    /* Light mode semantic tokens — cool, airy sky/teal neutrals */
+    --background: 192 38% 97%;
+    --foreground: 190 33% 16%;
 
-    --muted: 210 30% 90%;
-    --muted-foreground: 209 20% 45%;
+    --muted: 192 30% 90%;
+    --muted-foreground: 190 16% 42%;
 
-    --popover: 210 40% 97%;
-    --popover-foreground: 212 33% 18%;
+    --popover: 192 38% 97%;
+    --popover-foreground: 190 33% 16%;
 
-    --border: 209 25% 83%;
-    --input: 209 25% 83%;
+    --border: 191 25% 82%;
+    --input: 191 25% 82%;
 
     --card: transparent;
-    --card-foreground: 212 33% 18%;
+    --card-foreground: 190 33% 16%;
 
-    --primary: 9 74% 56%;
+    /* Primary action = Coral; ring/focus = Deep Teal */
+    --primary: 11 71% 59%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 30% 90%;
-    --secondary-foreground: 212 33% 18%;
+    --secondary: 36 50% 90%;
+    --secondary-foreground: 190 33% 16%;
 
-    --accent: 205 44% 85%;
-    --accent-foreground: 212 33% 18%;
+    --accent: 199 56% 80%;
+    --accent-foreground: 188 60% 18%;
 
     --destructive: 0 100% 50%;
     --destructive-foreground: 210 40% 98%;
 
-    --ring: 9 74% 56%;
+    --ring: 185 66% 32%;
 
     --radius: 0.5rem;
 
-    /* Light mode slate palette (inverted) */
-    --sl-50: #1E3040;
-    --sl-100: #2A4558;
-    --sl-200: #3A6080;
-    --sl-300: #4D7A98;
-    --sl-400: #6897B5;
-    --sl-500: #88B3CB;
-    --sl-600: #AACADB;
-    --sl-700: #C5D9E6;
-    --sl-800: #D8E8F2;
-    --sl-900: #EEF4F9;
-    --sl-950: #F5F9FC;
+    /* Light mode slate palette (inverted): dark teal text → airy sky surfaces */
+    --sl-50: #15323A;
+    --sl-100: #1F4750;
+    --sl-200: #2E6068;
+    --sl-300: #437A82;
+    --sl-400: #5E97A0;
+    --sl-500: #84B5BC;
+    --sl-600: #AACFD4;
+    --sl-700: #C8E1E6;
+    --sl-800: #DCEBEF;
+    --sl-900: #EAF4F7;
+    --sl-950: #F4FAFB;
   }
 
   .dark {
-    /* Dark mode semantic tokens */
-    --background: 212 33% 13%;
-    --foreground: 205 40% 93%;
+    /* Dark mode semantic tokens — Deep Sea teal base */
+    --background: 188 35% 11%;
+    --foreground: 192 40% 93%;
 
-    --muted: 209 24% 20%;
-    --muted-foreground: 205 25% 65%;
+    --muted: 189 24% 19%;
+    --muted-foreground: 192 22% 64%;
 
-    --popover: 212 33% 13%;
-    --popover-foreground: 205 40% 93%;
+    --popover: 188 35% 11%;
+    --popover-foreground: 192 40% 93%;
 
-    --border: 209 24% 23%;
-    --input: 209 24% 23%;
+    --border: 189 24% 22%;
+    --input: 189 24% 22%;
 
     --card: transparent;
-    --card-foreground: 205 40% 93%;
+    --card-foreground: 192 40% 93%;
 
-    --primary: 9 74% 56%;
+    /* Primary action = Coral; ring/focus = Turquoise (reads on dark) */
+    --primary: 11 71% 59%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 209 24% 20%;
-    --secondary-foreground: 205 40% 93%;
+    --secondary: 189 24% 19%;
+    --secondary-foreground: 192 40% 93%;
 
-    --accent: 205 44% 85%;
-    --accent-foreground: 212 33% 13%;
+    --accent: 199 56% 80%;
+    --accent-foreground: 188 40% 12%;
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
-    --ring: 9 74% 56%;
+    --ring: 180 46% 47%;
 
     --radius: 0.5rem;
 
-    /* Dark mode slate palette */
-    --sl-50: #F4F8FB;
-    --sl-100: #E3EDF5;
-    --sl-200: #C9DCEA;
-    --sl-300: #9BBDCE;
-    --sl-400: #6D9CB6;
-    --sl-500: #4C7F9E;
-    --sl-600: #376382;
-    --sl-700: #284E69;
-    --sl-800: #2C3A47;
-    --sl-900: #16202B;
-    --sl-950: #0E1620;
+    /* Dark mode slate palette: light text → Deep Sea teal surfaces */
+    --sl-50: #F2F8F9;
+    --sl-100: #E0EEF0;
+    --sl-200: #C5E0E3;
+    --sl-300: #95C2C7;
+    --sl-400: #66A1A8;
+    --sl-500: #44848C;
+    --sl-600: #2F696F;
+    --sl-700: #245358;
+    --sl-800: #1A3A40;
+    --sl-900: #122A30;
+    --sl-950: #0C1E22;
   }
 }
 
