@@ -1,0 +1,11 @@
+{
+  // Separate "staging" worker for the redesign preview.
+  // Used ONLY by the preview Workers project (deploy command: `wrangler deploy -c wrangler.preview.jsonc`).
+  // Production keeps using wrangler.jsonc (worker name "arizonatravel"); these never collide.
+  "name": "arizonatravel-preview",
+  "compatibility_date": "2026-06-21",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
