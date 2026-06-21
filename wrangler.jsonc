@@ -1,6 +1,7 @@
 {
   // Cloudflare Workers (static assets) config for the Arizona Travel site.
   // The worker name must match the existing production worker.
+  // Redeploy trigger test: verifying that pushes to `main` start a Workers Build (2026-06-21).
   "name": "arizonatravel",
   "compatibility_date": "2026-06-21",
   "assets": {
