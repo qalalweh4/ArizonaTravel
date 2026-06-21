@@ -27,7 +27,7 @@ export const BusinessPage = () => {
       <section className="relative pt-28 pb-14 md:pt-36 md:pb-20">
         <div className="absolute inset-0">
           <img
-            src="https://travelgateksa.com/_next/image?url=%2Fassets%2FBusiness%20Hero.jpg&w=2048&q=75"
+            src="/assets/Business%20Hero.jpg"
             alt={t("business.hero.imageAlt")}
             className="w-full h-full object-cover"
           />
