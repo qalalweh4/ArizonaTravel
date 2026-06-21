@@ -28,7 +28,7 @@ const STORAGE_KEY = "travelgate-language";
 const getInitialLanguage = (): Language => {
   if (typeof window === "undefined") return "en";
   const stored = window.localStorage.getItem(STORAGE_KEY);
-  return stored === "ar" ? "ar" : "en";
+  return stored === "en" ? "en" : "ar";
 };
 
 const resolveKey = (

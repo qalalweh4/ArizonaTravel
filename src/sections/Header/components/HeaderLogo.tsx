@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import logoDark from "../../../assets/Logo/logo-dark-transparent.png";
-import logoLight from "../../../assets/Logo/logo-light-transparent.png";
+import logoDark from "../../../assets/Logo/logo3-dark.png";
+import logoLight from "../../../assets/Logo/logo3-light.png";
 import { useTheme } from "@/contexts/ThemeContext";
 
 export const HeaderLogo = () => {
@@ -15,7 +15,7 @@ export const HeaderLogo = () => {
       <img
         src={theme === "dark" ? logoDark : logoLight}
         alt="Arizona Travel"
-        className="h-6 w-auto md:h-7"
+        className="h-10 w-auto md:h-12"
       />
     </Link>
   );
