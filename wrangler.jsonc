@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers (static assets) config for the Arizona Travel site.
+  // The worker name must match the existing production worker.
+  "name": "arizonatravel",
+  "compatibility_date": "2026-06-21",
+  "assets": {
+    // Vite build output served as static assets.
+    "directory": "./dist",
+    // SPA: serve index.html for unknown client-side routes (e.g. /en/about).
+    "not_found_handling": "single-page-application"
+  }
+}
