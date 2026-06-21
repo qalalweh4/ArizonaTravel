@@ -22,7 +22,7 @@ const offers: Offer[] = [
     rating: "4.7/5",
     price: "3,450 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2FThailand45.jpg&w=2048&q=75",
+      "/assets/Thailand45.jpg",
     tagKeys: ["tag1", "tag2", "tag3"],
   },
   {
@@ -31,7 +31,7 @@ const offers: Offer[] = [
     rating: "4.6/5",
     price: "3,200 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fvietnam.jpg&w=2048&q=75",
+      "/assets/vietnam.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -40,7 +40,7 @@ const offers: Offer[] = [
     rating: "4.5/5",
     price: "3,980 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fpoland.jpg&w=2048&q=75",
+      "/assets/poland.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -49,7 +49,7 @@ const offers: Offer[] = [
     rating: "4.9/5",
     price: "5,950 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fmaldives.jpg&w=2048&q=75",
+      "/assets/maldives.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -58,7 +58,7 @@ const offers: Offer[] = [
     rating: "4.4/5",
     price: "4,150 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Frussia.jpg&w=2048&q=75",
+      "/assets/russia.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -67,7 +67,7 @@ const offers: Offer[] = [
     rating: "4.7/5",
     price: "2,950 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fazerbaijan.jpg&w=2048&q=75",
+      "/assets/azerbaijan.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -76,7 +76,7 @@ const offers: Offer[] = [
     rating: "4.8/5",
     price: "3,180 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fgeorgia.jpg&w=2048&q=75",
+      "/assets/georgia.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -85,7 +85,7 @@ const offers: Offer[] = [
     rating: "4.9/5",
     price: "6,500 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fswitzerland.jpg&w=2048&q=75",
+      "/assets/switzerland.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -94,7 +94,7 @@ const offers: Offer[] = [
     rating: "4.6/5",
     price: "2,780 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fturkey.jpg&w=2048&q=75",
+      "/assets/turkey.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -103,7 +103,7 @@ const offers: Offer[] = [
     rating: "4.8/5",
     price: "4,280 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Findonesia.jpg&w=2048&q=75",
+      "/assets/indonesia.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -112,7 +112,7 @@ const offers: Offer[] = [
     rating: "4.7/5",
     price: "5,400 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Ffrance.jpg&w=2048&q=75",
+      "/assets/france.jpg",
     tagKeys: ["tag1", "tag2"],
   },
   {
@@ -121,7 +121,7 @@ const offers: Offer[] = [
     rating: "4.5/5",
     price: "4,760 SAR",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fspain.jpg&w=2048&q=75",
+      "/assets/spain.jpg",
     tagKeys: ["tag1", "tag2"],
   },
 ];

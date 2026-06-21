@@ -25,11 +25,9 @@ const LanguageContext = createContext<LanguageContextValue | undefined>(
 
 const STORAGE_KEY = "travelgate-language";
 
-const getInitialLanguage = (): Language => {
-  if (typeof window === "undefined") return "en";
-  const stored = window.localStorage.getItem(STORAGE_KEY);
-  return stored === "ar" ? "ar" : "en";
-};
+// Always start in Arabic on every visit, regardless of any saved preference.
+// The in-session language toggle still works; it just resets to Arabic on reload.
+const getInitialLanguage = (): Language => "ar";
 
 const resolveKey = (
   dictionary: Record<string, TranslationValue>,

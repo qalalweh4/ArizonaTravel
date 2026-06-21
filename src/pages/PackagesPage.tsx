@@ -15,22 +15,22 @@ const packageCards: PackageCardData[] = [
   {
     key: "europe",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fpoland.jpg&w=2048&q=75",
+      "/assets/poland.jpg",
   },
   {
     key: "eastEurope",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Frussia.jpg&w=2048&q=75",
+      "/assets/russia.jpg",
   },
   {
     key: "arabCountries",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2Fsaudi.jpg&w=2048&q=75",
+      "/assets/saudi.png",
   },
   {
     key: "eastAsia",
     image:
-      "https://travelgateksa.com/_next/image?url=%2Fassets%2FThailand45.jpg&w=2048&q=75",
+      "/assets/Thailand45.jpg",
   },
 ];
 

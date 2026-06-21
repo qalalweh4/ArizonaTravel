@@ -40,7 +40,7 @@ export const AboutPage = () => {
             </div>
             <div className="bg-slate-900 rounded-2xl overflow-hidden">
               <img
-                src="https://travelgateksa.com/_next/image?url=%2Fassets%2Fplane%20hero.png&w=2048&q=75"
+                src="/assets/plane%20hero.png"
                 alt={t("about.hero.imageAlt")}
                 className="w-full h-[280px] object-cover md:h-[360px]"
               />
